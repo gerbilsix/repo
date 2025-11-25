@@ -1,0 +1,2524 @@
+Package: catfish
+Version: 4.16.4-1~bpo22.04
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1759
+Depends: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-xfconf-0, python3-dbus, python3-gi-cairo, python3-pexpect, python3:any
+Recommends: plocate | locate
+Suggests: gir1.2-zeitgeist-2.0
+Filename: ./catfish_4.16.4-1~bpo22.04_all.deb
+Size: 288536
+MD5sum: ee2042d6b4e1263a3831e781c560766b
+SHA1: 2940de45dd2fec992374afe31ffcd19f231e98b0
+SHA256: 2ce10e3db88cd942f364d455281ae24e0729498f762591f81a5478f9f4caff39
+Section: utils
+Priority: optional
+Homepage: https://docs.xfce.org/apps/catfish/start
+Description: File searching tool which is configurable via the command line
+ Catfish is a handy file searching tool for Linux and UNIX.
+ The interface is intentionally lightweight and simple, using only Gtk+3.
+ You can configure it to your needs by using several command line options.
+
+Package: exo-utils
+Source: exo
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 152
+Depends: libexo-2-0 (= 4.18.0-1~bpo22.04), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.65.1), libgtk-3-0 (>= 3.21.4), libxfce4ui-2-0 (>= 4.15.1), libxfce4util7 (>= 4.17.2)
+Breaks: xfce4-cddrive-plugin (<= 0.0.1-0ubuntu2), xfce4-volstatus-icon (<= 0.1.0-0ubuntu5)
+Filename: ./exo-utils_4.18.0-1~bpo22.04_amd64.deb
+Size: 61752
+MD5sum: 40d4af1b8c2f25572e06913e0cb35382
+SHA1: 31de6be73f070628ff566461a861414293cdc7be
+SHA256: 4de85338fb1e0a85051100464695bccaee64aceebece9aa3973e4a09694225c2
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/exo/start
+Description: Utility files for libexo
+ This package contains the Xfce settings plugin and the utility files for
+ libexo-2-0 which are:
+   - exo-desktop-item-edit
+   - exo-open
+
+Package: gir1.2-libxfce4panel-2.0
+Source: xfce4-panel
+Version: 4.18.2-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 64
+Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-libxfce4util-1.0 (>= 4.17.2), libxfce4panel-2.0-4 (>= 4.17.2)
+Filename: ./gir1.2-libxfce4panel-2.0_4.18.2-1~bpo22.04_amd64.deb
+Size: 38522
+MD5sum: e7c75547d2de9b82289fc87b4b3ef407
+SHA1: 589aa5dccf40f9e347d096a92d3b948e0255295b
+SHA256: bd9c52d2bdc016fde75ab3f15a52c27b9baaa9e9cd7b2d801525faa50770c433
+Section: introspection
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfce4-panel/start
+Description: Xfce4 panel library (introspection data)
+ This package contains introspection data for the library (GTK3 variant) used by
+ various plugins for the Xfce panel.
+
+Package: gir1.2-libxfce4ui-2.0
+Source: libxfce4ui
+Version: 4.18.2-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 44
+Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-libxfce4util-1.0 (>= 4.17.2), libxfce4ui-2-0 (>= 4.18.2)
+Filename: ./gir1.2-libxfce4ui-2.0_4.18.2-2~bpo22.04_amd64.deb
+Size: 21438
+MD5sum: b55cf06f4057b527cbd82d54c1a7debf
+SHA1: d79ea0bb96b13a090834213a16800aaa5996e8c7
+SHA256: 02aad13bdf6d10efbe6c9fbdb6e150615e8592a99b3d69e864c82b6c2ef60bcf
+Section: introspection
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/libxfce4ui/start
+Description: Typelib file for libxfce4ui
+ libxfce4ui is used to share commonly used Xfce widgets among the Xfce
+ applications.
+ .
+ This package provides the introspection data for libxfce4ui.
+
+Package: gir1.2-libxfce4util-1.0
+Source: libxfce4util
+Version: 4.18.1-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 34
+Depends: gir1.2-glib-2.0, libxfce4util7 (>= 4.17.2)
+Filename: ./gir1.2-libxfce4util-1.0_4.18.1-2~bpo22.04_amd64.deb
+Size: 16232
+MD5sum: 765ace061009665700e34d178bc5a76b
+SHA1: 1800ed5988ce0075d840eb7c12d54313aa8ee57e
+SHA256: 2e63e7a987db8da055cbc745ad63404094e726fa9449267a7eb3adb94c99d3ef
+Section: introspection
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/libxfce4util/start
+Description: Typelib file for libxfce4util
+ libxfce4util is the basic utility function library for Xfce4.
+ .
+ This package provides the introspection data for libxfce4util.
+
+Package: gir1.2-xfconf-0
+Source: xfconf
+Version: 4.18.0-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 30
+Depends: gir1.2-glib-2.0, libxfconf-0-3 (>= 4.12.1)
+Filename: ./gir1.2-xfconf-0_4.18.0-2~bpo22.04_amd64.deb
+Size: 13954
+MD5sum: 5c3a32ac00685f8c1fd5148567f4ef77
+SHA1: 545cf1e8ab8b1a2d287ce6d93fbd26c693c0851e
+SHA256: d7ad534090ef47b3ff8cde9c7df286236c5571ea18dca0bd7d3f05011af1bb52
+Section: introspection
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: utilities for managing settings in Xfce - introspection support
+ xfconf contains xfconfd and xfconf-query.
+  - xfconfd handles the Xfce settings storage
+  - xfconf-query enables users to tune settings from command line
+ .
+ This package provides the introspection data for xfconf.
+
+Package: greybird-gtk-theme
+Version: 3.23.2-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 5410
+Depends: gtk2-engines-murrine
+Filename: ./greybird-gtk-theme_3.23.2-1_all.deb
+Size: 582710
+MD5sum: aa40d3b7122e0d5562d7794e98406dfa
+SHA1: 6ce90f5c793e4b0fb675b2a3b3c9b4c80edf92fa
+SHA256: 8ac4302e15728a835a72f843c5a083bf16de796aaf47fdf6708407e34f805e67
+Section: x11
+Priority: optional
+Homepage: https://github.com/shimmerproject/Greybird
+Description: grey GTK+ theme from the Shimmer Project
+ Greybird has been the default theme for Xubuntu since 2011 when it
+ replaced Bluebird. Greybird can be described as more conservative yet more
+ modern than Bluebird. The Shimmer Project are the designers and developers of
+ both themes.
+ .
+ Although originally created for Xfce, Greybird also supports other
+ GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
+Original-Maintainer: Debian Desktop Themes Team <greybird-gtk-theme@packages.debian.org>
+
+Package: libexo-2-0
+Source: exo
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1404
+Depends: libexo-common, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.33), libcairo2 (>= 1.10.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.4), libxfce4util7 (>= 4.17.0~)
+Recommends: liburi-perl
+Filename: ./libexo-2-0_4.18.0-1~bpo22.04_amd64.deb
+Size: 282156
+MD5sum: f6db78f97e44bb359b8b48f4efeb7908
+SHA1: 0fee69779c2e61c0ef53eaa831fcc52e82c4045d
+SHA256: 113955c517f6608371568f52d43dc1a50f49248911707fa63fae0d42c2f9050b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/exo/start
+Description: Library with extensions for Xfce (GTK-3 version)
+ libexo is a library for Xfce that contains a bunch of additional widgets and
+ a framework for editable toolbars (an improved version of the framework
+ present in GNOME), light-weight session management support, functions to
+ automatically synchronize object properties (based on GObject Binding
+ Properties) and several miscellaneous utility and helper functions for
+ application developers.
+ .
+ While Xfce ships with quite a few libraries that are primarily targeted at
+ desktop development, libexo is targeted at application development, with a
+ focus on applications for Xfce.
+ .
+ This package provides GTK-3 version.
+
+Package: libexo-2-dev
+Source: exo
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1077
+Depends: libexo-2-0 (= 4.18.0-1~bpo22.04), libgtk-3-dev, libxfce4util-dev (>= 4.10.0)
+Filename: ./libexo-2-dev_4.18.0-1~bpo22.04_amd64.deb
+Size: 83104
+MD5sum: b3a06dd8b7a297ffd785530eabafda50
+SHA1: bbd36f454ca889d20e75b15f38cee718b1b7a709
+SHA256: bb18a3fe873961d23d03b35532d6da545b77079a3bf47722000989b9e1cae3d0
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/exo/start
+Description: Development files for libexo (GTK-3 version)
+ libexo is a library for Xfce that contains a bunch of additional widgets and
+ a framework for editable toolbars (an improved version of the framework
+ present in GNOME), light-weight session management support, functions to
+ automatically synchronize object properties (based on GObject Binding
+ Properties) and several miscellaneous utility and helper functions for
+ application developers.
+ .
+ This package contains the headers and the static library
+ for libexo-2-0.
+
+Package: libexo-common
+Source: exo
+Version: 4.18.0-1~bpo22.04
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 39
+Suggests: sensible-utils
+Filename: ./libexo-common_4.18.0-1~bpo22.04_all.deb
+Size: 28378
+MD5sum: 3bca294310bc4c5b4ef6976a9ca3738c
+SHA1: 073e1c6137e88e9bbde69de9c880fa73066c53ba
+SHA256: e66aaa3d3f5f2ba5a68195d6b416500070e742f90e9a0123a882c359e7addd22
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/exo/start
+Description: libexo common files
+ libexo is a library for Xfce that contains a bunch of additional widgets and
+ a framework for editable toolbars (an improved version of the framework
+ present in GNOME), light-weight session management support, functions to
+ automatically synchronize object properties (based on GObject Binding
+ Properties) and several miscellaneous utility and helper functions for
+ application developers.
+ .
+ This package contains the common files in use by exo library. It ships
+ desktop files and documentation.
+
+Package: libgarcon-1-0
+Source: garcon
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 165
+Depends: libgarcon-common, libc6 (>= 2.4), libglib2.0-0 (>= 2.67.3+git20210214), libxfce4util7 (>= 4.9.0)
+Filename: ./libgarcon-1-0_4.18.0-1~bpo22.04_amd64.deb
+Size: 54348
+MD5sum: ef683412bbb849823a0d2021ffa5adf1
+SHA1: 55a84eaae7008acf2a7b2a141aea8de7051fc4bf
+SHA256: a659fc79bc46253b21590552bcbde87173c33bf56bfa61b2c8c141937b33edc0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/garcon/start
+Description: freedesktop.org compliant menu implementation for Xfce
+ garcon is a menu implementation that is compliant with the Desktop Menu
+ Specification of freedesktop.org
+ .
+ This package contains the core library and the GTK2 support library.
+
+Package: libgarcon-1-0-dev
+Source: garcon
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 18
+Depends: libgarcon-1-dev
+Filename: ./libgarcon-1-0-dev_4.18.0-1~bpo22.04_amd64.deb
+Size: 10276
+MD5sum: 5840230811a1f08b98643756c067df3d
+SHA1: 45ae6285fb7d0828ce11da9c34883ba5b27054e6
+SHA256: c76fb2c293be3466c524adf7b6b2241b2924027900b6fe09ce2adb8fbe1f0aa8
+Section: oldlibs
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/garcon/start
+Description: transitional package for libgarcon-1-dev
+ This package has been renamed to libgarcon-1-dev.
+
+Package: libgarcon-1-dev
+Source: garcon
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 737
+Depends: gir1.2-garcon-1.0 (= 4.18.0-1~bpo22.04), libgarcon-1-0 (= 4.18.0-1~bpo22.04)
+Suggests: devhelp
+Provides: libgarcon-1-0-dev
+Filename: ./libgarcon-1-dev_4.18.0-1~bpo22.04_amd64.deb
+Size: 56518
+MD5sum: 7f3a5af08bf4fa74634b41856cf8e569
+SHA1: ff41e69f5d7104b56bc9f283bc655e8ac11ae9e5
+SHA256: 183bc33606bf465ec51d15a5329768547b6fa681701137d541a9b14e842958ce
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/garcon/start
+Description: Development files for garcon-1
+ This package contains the headers and the static library
+ for garcon-1.
+
+Package: libgarcon-common
+Source: garcon
+Version: 4.18.0-1~bpo22.04
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 491
+Filename: ./libgarcon-common_4.18.0-1~bpo22.04_all.deb
+Size: 67618
+MD5sum: 1eae108ab6f89235fe5ef43671b56681
+SHA1: b8a7b31da589f41904128caacf8313ddd8d4a8e3
+SHA256: 3720ab9d26715e24197ac23268a9c0de2a9fc34d60d9d7106586d33311902b90
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/garcon/start
+Description: common files for libgarcon menu implementation
+ garcon is a menu implementation that is compliant with the Desktop Menu
+ Specification of freedesktop.org
+ .
+ This package contains common files like desktop-directories and menu file.
+
+Package: libgarcon-gtk3-1-0
+Source: garcon
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 67
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgarcon-1-0 (>= 0.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.9.10), libxfce4ui-2-0 (>= 4.15.6), libxfce4util7 (>= 4.15.3)
+Filename: ./libgarcon-gtk3-1-0_4.18.0-1~bpo22.04_amd64.deb
+Size: 23316
+MD5sum: fca56b48c3cbc8852cfad728264a07dc
+SHA1: 6edbbfe8e2a60f5038066c1a7782bdacaa0effd2
+SHA256: 200ff1eaf720584fa7cae66c1a245dbc4aef03852eba9bab69ff90e8cf1d05ec
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/garcon/start
+Description: menu library for Xfce (GTK3 library)
+ garcon is a menu implementation that is compliant with the Desktop Menu
+ Specification of freedesktop.org
+ .
+ This package contains the GTK-3 support library.
+
+Package: libgarcon-gtk3-1-dev
+Source: garcon
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 52
+Depends: gir1.2-garcongtk-1.0 (= 4.18.0-1~bpo22.04), libgarcon-gtk3-1-0 (= 4.18.0-1~bpo22.04), libgarcon-1-dev, libxfce4ui-2-dev
+Suggests: devhelp
+Filename: ./libgarcon-gtk3-1-dev_4.18.0-1~bpo22.04_amd64.deb
+Size: 14280
+MD5sum: 7b3aac201982fcf8609a6cae7d331c1b
+SHA1: c91cb6264620f438ea98bcd44df37040f558e53d
+SHA256: 920add49c5b8e73e00862fd19429123bb9f3c7d1697cd75e7028ae9bf16abad7
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/garcon/start
+Description: Development files for garcon-gtk3
+ This package contains the headers and the static library for garcon-gtk3
+ library, the GTK3 support library for the garcon menu library.
+
+Package: libmousepad-dev
+Source: mousepad
+Version: 0.5.8-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 15
+Filename: ./libmousepad-dev_0.5.8-1_amd64.deb
+Size: 3430
+MD5sum: c2aa093a66da3921fe3616300e6fa590
+SHA1: 08d2ecd3aa35506bc78d0690c9dfe26b2fdb2e8f
+SHA256: 1939ca2a1a72b3b313ba632b362b87305efe133b365b61ff56e6d18fbcc2070e
+Section: libdevel
+Priority: optional
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Description: development files for libmousepad
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ This package contains the development files for libmousepad, library to be
+ used for Mousepad plugins.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: libmousepad0
+Source: mousepad
+Version: 0.5.8-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 425
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libgtksourceview-4-0 (>= 3.23.90), libpango-1.0-0 (>= 1.14.0)
+Filename: ./libmousepad0_0.5.8-1_amd64.deb
+Size: 122336
+MD5sum: ebae5a3cbea2e5ad22d87618d5cc62c0
+SHA1: 735cdc0a9fe54d1d74663f1bbfea0288ff7c1006
+SHA256: 6a6ae365facf7401bd13f70e110960fb170b8e71a806807760513f0de9060c2b
+Section: libs
+Priority: optional
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Description: mousepad plugins library
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ This package contains the libmousepad library, used for Mousepad plugins.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: libthunarx-3-0
+Source: thunar
+Version: 4.18.4-3+victoria
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 343
+Depends: thunar-data, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libexif12 (>= 0.6.21-1~), libexo-2-0 (>= 4.17.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.4), libpango-1.0-0 (>= 1.14.0), libpcre2-8-0 (>= 10.22), libx11-6, libxfce4ui-2-0 (>= 4.17.6), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.6.0)
+Recommends: libxfce4panel-2.0-4 (>= 4.13.0)
+Filename: ./libthunarx-3-0_4.18.4-3+victoria_amd64.deb
+Size: 118388
+MD5sum: df4d6377ce1b428d6419ff5e8d6046f8
+SHA1: 048e19e496a491177a526b6582a3709a0fbb30a8
+SHA256: cb952b392c655f69eac27e29468d60b0b8537db09be2e3bbae62bf451c136593
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Description: extension library for thunar
+ This package contains the Thunar extension library which permits adding new
+ features to the Thunar file manager.
+
+Package: libthunarx-3-dev
+Source: thunar
+Version: 4.18.4-3+victoria
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2866
+Depends: gir1.2-thunarx-3.0 (= 4.18.4-3+victoria), libglib2.0-dev, libgtk-3-dev, libthunarx-3-0 (= 4.18.4-3+victoria), thunar-data (= 4.18.4-3+victoria)
+Filename: ./libthunarx-3-dev_4.18.4-3+victoria_amd64.deb
+Size: 310140
+MD5sum: 28a03d373d78064437eee1f71a1c0036
+SHA1: a8db90d186f911652fa2217bc416536ee00bafbd
+SHA256: 0d00adc5b65097759dad740cf9cf3a8cb03a79063606c8e67bae9107bc9d4bcc
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Description: Development files for libthunarx
+ This package contains the headers and the static library for libthunarx,
+ the extension library used by thunar
+
+Package: libxfce4panel-2.0-4
+Source: xfce4-panel
+Version: 4.18.2-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 187
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libxfce4util7 (>= 4.17.2)
+Filename: ./libxfce4panel-2.0-4_4.18.2-1~bpo22.04_amd64.deb
+Size: 70894
+MD5sum: 749cbd2056f3d06d1b03ea9a1c2692ce
+SHA1: a456647dc3c139a20b262996dcb283ba1646eebf
+SHA256: 3ab33496315f0d67304ed3e8dba926392d7e48afeec7dca3c69c2d5d484dd4db
+Section: libs
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfce4-panel/start
+Description: Xfce4 panel library (GTK3 variant)
+ This package contains the GTK3 variant of the panel library, used by the
+ various plugins for the Xfce panel.
+
+Package: libxfce4panel-2.0-dev
+Source: xfce4-panel
+Version: 4.18.2-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 696
+Depends: gir1.2-libxfce4panel-2.0 (= 4.18.2-1~bpo22.04), libglib2.0-dev, libgtk-3-dev, libxfce4panel-2.0-4 (= 4.18.2-1~bpo22.04), libxfce4util-dev
+Filename: ./libxfce4panel-2.0-dev_4.18.2-1~bpo22.04_amd64.deb
+Size: 82696
+MD5sum: bbb1a667fc7c57dc65f82c3950683fca
+SHA1: 951c98b7f4a33e6e09651d00af446b055196d28d
+SHA256: 8685b5c84db1e95e3bf3ccce665c28993fca10096e47da9fae90cb3b2343f256
+Section: libdevel
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfce4-panel/start
+Description: Xfce4 panel library (development files for GTK3 variant)
+ This package contains development files for the library (GTK3 variant) used by
+ various plugins for the Xfce panel.
+
+Package: libxfce4ui-2-0
+Source: libxfce4ui
+Version: 4.18.2-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 241
+Depends: libxfce4ui-common, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.4), libice6 (>= 1:1.0.0), libsm6, libstartup-notification0 (>= 0.4), libx11-6, libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.6.0)
+Filename: ./libxfce4ui-2-0_4.18.2-2~bpo22.04_amd64.deb
+Size: 79512
+MD5sum: 4e2940c534214bfc54c31f7d258b29f2
+SHA1: 558275ee8dee5cd17c93876fc75aa9b92cf1cc4e
+SHA256: 0cd6375ee300d0da50e84549904267b5075df9e9340ef4b0a360d909be2a5d0f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/libxfce4ui/start
+Description: widget library for Xfce - Gtk+3 variant
+ libxfce4ui is used to share commonly used Xfce widgets among the Xfce
+ applications.
+ .
+ This package provides the Gtk+3 variant of libxfce4ui.
+
+Package: libxfce4ui-2-dev
+Source: libxfce4ui
+Version: 4.18.2-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 293
+Depends: gir1.2-libxfce4ui-2.0 (= 4.18.2-2~bpo22.04), libgtk-3-dev, libxfce4ui-2-0 (= 4.18.2-2~bpo22.04), libxfce4util-dev, libxfconf-0-dev
+Filename: ./libxfce4ui-2-dev_4.18.2-2~bpo22.04_amd64.deb
+Size: 43172
+MD5sum: 4c32004da1e2b304925b09b08d1a28dc
+SHA1: a3e732171a688fccf036d3464d667237c68cc3a5
+SHA256: ab5e2c89a14d64d290cf962c33ecff28cd66e8f9755a43252ec5461c844497cf
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/libxfce4ui/start
+Description: Development files for libxfce4ui - Gtk+3 variant
+ This package contains the headers and the static library
+ for libxfce4ui.
+ .
+ This package provides development files for the Gtk+3 variant of libxfce4ui.
+
+Package: libxfce4ui-common
+Source: libxfce4ui
+Version: 4.18.2-2~bpo22.04
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1754
+Suggests: devhelp, libxfce4ui-2-0 | libxfce4ui-1-0
+Provides: xfce-keyboard-shortcuts
+Filename: ./libxfce4ui-common_4.18.2-2~bpo22.04_all.deb
+Size: 250376
+MD5sum: d9ea21831125f3f2f837586d6624f709
+SHA1: b7a50851baaf78c46eb06075fb635775ec1e2bbf
+SHA256: 1b25bb4a31f495e78566259417b78fe6b9dfe6c034072dba532917baf3348bdf
+Section: xfce
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/libxfce4ui/start
+Description: common files for libxfce4ui
+ This package contains the common files for both variants of libxfce4ui.
+
+Package: libxfce4ui-glade
+Source: libxfce4ui
+Version: 4.18.2-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 55
+Depends: libc6 (>= 2.2.5), libgladeui-2-13 (>= 3.16.1), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.0.0), libxfce4ui-2-0 (>= 4.11.0)
+Filename: ./libxfce4ui-glade_4.18.2-2~bpo22.04_amd64.deb
+Size: 20196
+MD5sum: 08661df485d81a2cd0e4fc071dae1fe1
+SHA1: f59cabb92b9f79a93a0b45d9d19b9d2228346346
+SHA256: fd792b42e95bff727fa7b6f3f9d5147e2d5e2d0f998dab0413af61016b905f63
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/libxfce4ui/start
+Description: glade API for libxfce4ui
+ libxfce4ui is used to share commonly used Xfce widgets among the Xfce
+ applications.
+ .
+ This package contains the modules for GTK+3 GUI development with Glade.
+
+Package: libxfce4ui-utils
+Source: libxfce4ui
+Version: 4.18.2-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 242
+Depends: libc6 (>= 2.34), libepoxy0 (>= 1.2), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.16.2), libgtop-2.0-11 (>= 2.22.3), libx11-6, libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.17.2)
+Filename: ./libxfce4ui-utils_4.18.2-2~bpo22.04_amd64.deb
+Size: 91396
+MD5sum: dfe928625a4b18ac0df98b1d198c7d0d
+SHA1: 572c8d7952997639e374a7b610a53554fd3d1b16
+SHA256: f4ead4dd218928d179d035dbd6afcb74e55e3d5c17d7ec9b3452b729f05404fe
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/libxfce4ui/start
+Description: Utility files for libxfce4ui
+ This package contains the Xfce settings plugin and the utility files for
+ libxfce4ui-2-0 which are:
+   - xfce4-about
+
+Package: libxfce4util-bin
+Source: libxfce4util
+Version: 4.18.1-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 40
+Depends: libc6 (>= 2.34), libxfce4util7 (>= 4.9.0)
+Breaks: libxfce4util4 (<< 4.6.1-2)
+Replaces: libxfce4util4 (<< 4.6.1-2)
+Filename: ./libxfce4util-bin_4.18.1-2~bpo22.04_amd64.deb
+Size: 16552
+MD5sum: 1dc182c5555742b78db4cbaa0ba819b6
+SHA1: 29558afd2610d0fb8c501df5b8b4567ba81ecb90
+SHA256: 5de9b91f49ecad2312a1c23e120128b55be0f1dd52b3b28f43754f5c998f4de5
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/libxfce4util/start
+Description: tools for libxfce4util
+ This package contains binaries used by Xfce basic utility library.
+ At the moment, the following programs are included:
+  - xfce4-kiosk-query: query Xfce kiosk capabilities.
+
+Package: libxfce4util-common
+Source: libxfce4util
+Version: 4.18.1-2~bpo22.04
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 577
+Breaks: libxfce4util4 (<< 4.6.1-2)
+Replaces: libxfce4util4 (<< 4.6.1-2)
+Filename: ./libxfce4util-common_4.18.1-2~bpo22.04_all.deb
+Size: 70658
+MD5sum: 5e1ba98854e7ce668fd2b2edb2e35cc2
+SHA1: 31408403154ed70ff14d317786f38520618831fd
+SHA256: f47b41ff0ddadecc6d846306fcd8302053decb456423a1f00f9a337ec8c740ad
+Section: xfce
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/libxfce4util/start
+Description: common files for libxfce4util
+ This package contains various infrastructure-independent common files for
+ libxfce4util, the Xfce utility library.
+
+Package: libxfce4util-dev
+Source: libxfce4util
+Version: 4.18.1-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 543
+Depends: gir1.2-libxfce4util-1.0 (= 4.18.1-2~bpo22.04), libglib2.0-dev, libxfce4util7 (= 4.18.1-2~bpo22.04)
+Suggests: devhelp
+Filename: ./libxfce4util-dev_4.18.1-2~bpo22.04_amd64.deb
+Size: 54926
+MD5sum: e5dfb0284d9badc07a42a79c452a0446
+SHA1: 3b5b5d94efdd43066b0b714e2216c1e9bfb11106
+SHA256: 659da49b551f2971ebcb5e41308b6c8d9adec6db1b7966ffe289eaaab1b814a4
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/libxfce4util/start
+Description: Development files for libxfce4util7
+ This package contains the headers for libxfce4util7. If you intend to code
+ applications for the Xfce4 desktop environment, you need to install this
+ package.
+ .
+ The libxfce4util7 Reference Manual is also included and
+ it can be consulted using Devhelp or a web browser.
+
+Package: libxfce4util7
+Source: libxfce4util
+Version: 4.18.1-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 103
+Depends: libxfce4util-common, libc6 (>= 2.33), libglib2.0-0 (>= 2.55.2)
+Recommends: libxfce4util-bin
+Filename: ./libxfce4util7_4.18.1-2~bpo22.04_amd64.deb
+Size: 40652
+MD5sum: 8e1b38792861ab50f507259a3acd0acb
+SHA1: 304049a797332692a08d6261c5671f19a2ae430d
+SHA256: a9860232abd62a8668045078bfc4ca46c7aad6b8b27fc60e403f2f484f0e503b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/libxfce4util/start
+Description: Utility functions library for Xfce4
+ This package contains libxfce4util7, the basic utility
+ function library for Xfce4. If you intend to run Xfce4,
+ you need this library.
+
+Package: libxfconf-0-3
+Source: xfconf
+Version: 4.18.0-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 119
+Depends: xfconf, libc6 (>= 2.14), libglib2.0-0 (>= 2.55.2)
+Filename: ./libxfconf-0-3_4.18.0-2~bpo22.04_amd64.deb
+Size: 41360
+MD5sum: 800374c5ad11a7716406aa140e1c668b
+SHA1: c5ec359d46639aae3cc806db29619021dc51138c
+SHA256: d07541e093cfff542f93ab03d152b2060b4dda07a6a6e0158d9739337df8ef8e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: Client library for Xfce4 configure interface
+ This package contains a library which can be used by every
+ program that aims to be a configuration-manager for Xfce4.
+ .
+ If you intend to use Xfce4, you definitely want to install
+ this package.
+
+Package: libxfconf-0-dev
+Source: xfconf
+Version: 4.18.0-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 436
+Depends: gir1.2-xfconf-0 (= 4.18.0-2~bpo22.04), libglib2.0-dev, libxfconf-0-3 (= 4.18.0-2~bpo22.04), pkg-config
+Filename: ./libxfconf-0-dev_4.18.0-2~bpo22.04_amd64.deb
+Size: 41690
+MD5sum: 39300b89be2ca08958cb7313085b92fe
+SHA1: 08318e02ff6e8f00daba7358b3ebc676e7c03b01
+SHA256: b7ec7ce1a306a871ec3483da50cab5b6a1b22b2cbffb68848a4d3e56ed4877d2
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: Development files for libxfconf
+ This package contains the development files libxfconf which are
+ the main part of the Xfce4 configuration system. If you want to
+ develop applications that use this library, you want
+ to install this package.
+ .
+ The libxfconf Reference Manual is also included and it can be
+ consulted with Devhelp or a web browser.
+
+Package: mousepad
+Version: 0.5.10-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1881
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.0.0), libmousepad0 (>= 0.5.8)
+Filename: ./mousepad_0.5.10-1_amd64.deb
+Size: 352468
+MD5sum: ff737e7bef5693231116d7083c54aed5
+SHA1: f6860625a16a8ac56a036e2aa58fa676cc9fe9f0
+SHA256: 49011919a69016c3bd23325dd7ad702c59e872caa4f0711c37ed5c01c0c08e5e
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
+ .
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: parole
+Version: 4.18.0-0ubuntu1
+Architecture: amd64
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Installed-Size: 2235
+Depends: gstreamer1.0-alsa | gstreamer1.0-audiosink, gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-x, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.88), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.38.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.21.5), libnotify4 (>= 0.7.0), libtagc0 (>= 1.5), libx11-6, libxfce4ui-2-0 (>= 4.11.1), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.10)
+Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly
+Filename: ./parole_4.18.0-0ubuntu1_amd64.deb
+Size: 421188
+MD5sum: e84184247deb5dc158f6d199319d2d82
+SHA1: 530874bf47b892ad9eb62d17af137fb87099d2cf
+SHA256: 504776cb5092c38f57cf1b9ec342d6aa2be1d463fca35900a3196a7319ae8b23
+Section: xfce
+Priority: optional
+Homepage: https://goodies.xfce.org/projects/applications/parole
+Description: media player based on GStreamer framework
+ Parole is a media player for the Xfce desktop environment, written using the
+ GStreamer framework.
+ .
+ Parole features playback of local media files, including video with subtitles
+ support, DVD/CD and live streams; it is also extensible via plugins.
+ .
+ This package contains Parole media player.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: ristretto
+Version: 0.12.2-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1236
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.14.0), libexif12 (>= 0.6.21-1~), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.43.2), libgtk-3-0 (>= 3.21.5), libmagic1 (>= 5.32), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.12.1)
+Recommends: tumbler
+Filename: ./ristretto_0.12.2-1_amd64.deb
+Size: 270652
+MD5sum: ce21b45e316f100a68e0d2fb61837b83
+SHA1: 0720d71be02359b8edaa417ca3c706e963847e40
+SHA256: 408e5f3fb16fcf6dfefa73ac18f1c35f7f8867305aed50b9d77ffefa40907c94
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/apps/ristretto/start
+Description: lightweight picture-viewer for the Xfce desktop environment
+ Ristretto is a fast and lightweight picture-viewer for the Xfce desktop
+ environment.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: thunar
+Version: 4.18.4-3+victoria
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1202
+Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 4.18.4-3+victoria), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.14.0), libexo-2-0 (>= 4.17.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.65.1), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6, libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.17.6), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.6.0)
+Recommends: default-dbus-session-bus | dbus-session-bus, gvfs, policykit-1-gnome | polkit-1-auth-agent, thunar-volman, tumbler, udisks2, xdg-user-dirs, libxfce4panel-2.0-4 (>= 4.13.0)
+Suggests: thunar-archive-plugin, thunar-media-tags-plugin, gvfs-backends
+Breaks: thunar-data (<< 1.2.3-3)
+Replaces: thunar-data (<< 1.2.3-3)
+Filename: ./thunar_4.18.4-3+victoria_amd64.deb
+Size: 397340
+MD5sum: ee11a1a1d6c5ec89c1d5478ce72b21ec
+SHA1: f29b2de76f775f77cadead920dee66a758933bf8
+SHA256: 39487a956d9a74fedfe5abadec70904f0285a018906b967279617c8c84420b93
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Description: File Manager for Xfce
+ Thunar is the file manager designed to be the default file manager for the
+ Xfce desktop environment. It has been designed to be fast and easy to use.
+ .
+ Also included is an Xfce panel plugin which can manage the desktop trash.
+
+Package: thunar-archive-plugin
+Version: 0.5.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 365
+Depends: thunar (>= 0.5.0rc2-1), libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.16.2), libthunarx-3-0 (>= 1.7.0)
+Recommends: xarchiver (>= 0.3.9.2beta2-2) | ark | file-roller | engrampa
+Filename: ./thunar-archive-plugin_0.5.0-1~bpo22.04_amd64.deb
+Size: 45166
+MD5sum: 26ec2077a76a554cd0260bc5cfc2a37d
+SHA1: c782ea4cbdc82a0adaccebeb4b636ba048ada442
+SHA256: dfb878c3c282cd518bcb911c4df1a983ca041a1ede727fc34aa5c34417a329d6
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/xfce/thunar/archive
+Description: Archive plugin for Thunar file manager
+ This plugin allows one to extract and create archive from inside the Thunar
+ file manager. At the moment it uses file-roller but will use xarchiver in the
+ future.
+
+Package: thunar-data
+Source: thunar
+Version: 4.18.4-3+victoria
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 5278
+Filename: ./thunar-data_4.18.4-3+victoria_all.deb
+Size: 853896
+MD5sum: 9fa0f2f3caca7394bc3a5fc5754cb69a
+SHA1: db2d159fbaa6c2038d06005d7ca217c10f995759
+SHA256: 693ab22fc9021d985f5433870d6237bac66e62b2aa9e0213f0a3061632fe8752
+Section: xfce
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Description: Provides thunar documentation, icons and translations
+ This package contains architecture-independent files for thunar, the file
+ manager and file management libraries for Xfce desktop environment.
+
+Package: thunar-dropbox-plugin
+Version: 0.3.1-2~bpo22.04
+Architecture: amd64
+Maintainer: Unit 193 <unit193@debian.org>
+Installed-Size: 42
+Depends: libc6 (>= 2.15), libglib2.0-0 (>= 2.35.9), libthunarx-3-0 (>= 1.7.0), thunar
+Recommends: nautilus-dropbox
+Filename: ./thunar-dropbox-plugin_0.3.1-2~bpo22.04_amd64.deb
+Size: 10124
+MD5sum: 018ef98767191774ee9e9ebd410581a4
+SHA1: bdbd7f8796e83adc045a051d0f2e07eff2bf2e54
+SHA256: 0a6985bf7b3af0b4cab66e19710272332909518e7978a79b18f707166f20efde
+Section: contrib/misc
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/Jeinzi/thunar-dropbox
+Description: context-menu items from dropbox for Thunar
+ Thunar Dropbox is a plugin for thunar that adds context-menu
+ items from dropbox. This plugin does not come with dropbox itself,
+ you will need to install that separately.
+
+Package: thunar-font-manager
+Source: font-manager
+Version: 0.8.8-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 62
+Depends: font-manager (= 0.8.8-1), thunar (>= 1.8), font-manager-common (>= 0.8.8), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.44), libjson-glib-1.0-0 (>= 1.5.2), libthunarx-3-0 (>= 1.7.0)
+Filename: ./thunar-font-manager_0.8.8-1_amd64.deb
+Size: 15566
+MD5sum: f734c5b1a1ffa72f277b35aed4ec03b9
+SHA1: e30bf9b70f703a939f47cf27e885ca29ecf7cebe
+SHA256: 1a26fdf9fa84fe09771cc13652dc5bfec652da441f99bc07ee80bf8973354344
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://fontmanager.github.io/
+Description: Thunar extension for Font Manager
+ Font Manager is intended to provide a way for average users to easily manage
+ desktop fonts, without having to resort to command line tools or editing
+ configuration files by hand. While designed primarily with the GNOME Desktop
+ Environment in mind, it should work well with other Gtk+ desktop environments.
+ .
+ This package provides integration with the Thunar file manager for
+ Font Manager.
+Original-Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+
+Package: thunar-gtkhash
+Source: gtkhash
+Version: 1.2-1build2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 77
+Depends: gtkhash (= 1.2-1build2), libb2-1 (>= 0.98.1), libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.35.8), libgtk-3-0 (>= 3.21.5), libnettle8, libthunarx-3-0 (>= 1.1.0), zlib1g (>= 1:1.1.4)
+Filename: ./thunar-gtkhash_1.2-1build2_amd64.deb
+Size: 21028
+MD5sum: ebef8e1718125fc7b389d0eda345fefb
+SHA1: 72901174a464d504da3fe1eb42e540303ad03849
+SHA256: f25ca38a783d9f01b817579ca24bdb417777aebd221db621849d4306cd19e0b6
+Section: utils
+Priority: optional
+Homepage: http://gtkhash.sourceforge.net
+Description: thunar extension for computing checksums and more using gtkhash
+ The GtkHash extension for thunar which allows users to compute
+ message digests or checksums using the mhash library.
+ Currently supported hash functions include MD5, MD6, SHA1,
+ SHA256, SHA512, RIPEMD, TIGER and WHIRLPOOL.
+Original-Maintainer: Mònica Ramírez Arceda <monica@debian.org>
+
+Package: thunar-media-tags-plugin
+Version: 0.3.0-2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 413
+Depends: thunar (>= 1.1.0), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libexo-2-0 (>= 0.11.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.16.2), libtagc0 (>= 1.5), libthunarx-3-0 (>= 1.7.0)
+Filename: ./thunar-media-tags-plugin_0.3.0-2_amd64.deb
+Size: 53320
+MD5sum: 87bfc0f88bc50ce1d71cb49123c4c969
+SHA1: 7e0633942f32bebda5858f24dfd1b2ba022b404f
+SHA256: ab3781e99994ec643d5b133bf0c1fc3b88b85f75d235e8301d31b08e79c81ee3
+Section: xfce
+Priority: optional
+Description: Media tags plugin for Thunar file manager
+ This plugin allows tags editing from Thunar file manager  and tags-based file
+ renaming from inside Thunar Bulk Renamer
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: thunar-vcs-plugin
+Version: 0.2.0-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1153
+Depends: thunar (>= 0.5.0rc2-1), libapr1 (>= 1.2.7), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libexo-2-0 (>= 0.11.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.16.2), libpango-1.0-0 (>= 1.14.0), libsvn1 (>= 1.9), libthunarx-3-0 (>= 1.7.0), libxfce4util7 (>= 4.9.0)
+Filename: ./thunar-vcs-plugin_0.2.0-1_amd64.deb
+Size: 204632
+MD5sum: 2736dd287b4fb58cd329dc5bd71bfd88
+SHA1: 1724a427f64bd202ba060e340c2aeb1ee15a2445
+SHA256: 934f009fdb91a59cb5545115415249c588cd8fb025d90ef36c01c54dddebc893
+Section: xfce
+Priority: optional
+Homepage: https://goodies.xfce.org/projects/thunar-plugins/thunar-vcs-plugin
+Description: VCS plugin for Thunar file manager
+ Git and Subversion integration into the Thunar file manager.
+ The current features are:
+   * most of the svn action: add, blame, checkout, cleanup, commit, copy,
+     delete, export, import, lock, log, move, properties, relocate, resolved,
+     revert, status, switch, unlock, update.
+   * Subversion info in file properties dialog.
+   * Basic Git actions: add, blame, branch, clean, clone, log, move, reset,
+     stash, status.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: thunar-volman
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 886
+Depends: exo-utils, thunar, libc6 (>= 2.34), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.16.2), libgudev-1.0-0 (>= 146), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libxfce4ui-2-0 (>= 4.15.1), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0)
+Filename: ./thunar-volman_4.18.0-1~bpo22.04_amd64.deb
+Size: 141616
+MD5sum: bdbf0ac7989ee72c8e31e98d3a5a7109
+SHA1: 5f5df5f368123469634766d47856525d84033fb6
+SHA256: 81ff01d4850a2ce65404f9458f76945fad11d68c944bc1914a136e3f3cd3de41
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/thunar/thunar-volman
+Description: Thunar extension for volumes management
+ The Thunar Volume Manager is an extension for the Thunar file manager, which
+ enables automatic management of removable drives and media.
+
+Package: thunarx-python
+Version: 0.5.2-2build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 60
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpython3.10 (>= 3.10.0), libthunarx-3-0 (>= 1.1.0), thunar (>= 0.4.0)
+Filename: ./thunarx-python_0.5.2-2build1_amd64.deb
+Size: 14632
+MD5sum: 23369a34c297e5073cbc4052d00d19b9
+SHA1: 15dce37f645005f758dddf0ca373ac0f07300c2e
+SHA256: 2ee641d6a190f0cae945815a0820e8fadbd412a64f77c72d4508e7f2c76d281f
+Section: xfce
+Priority: optional
+Homepage: https://goodies.xfce.org/projects/bindings/thunarx-python
+Description: Python bindings for the Thunar file manager
+ Python bindings for the Thunar file manager, allowing property page and menu
+ extensions to be written in Python.
+Original-Maintainer: Ritesh Raj Sarraf <rrs@debian.org>
+
+Package: xfburn
+Version: 0.6.2-1build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2277
+Depends: libburn4 (>= 1.5.4), libc6 (>= 2.34), libexo-2-0 (>= 0.11.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libisofs6 (>= 1.5.4), libxfce4ui-2-0 (>= 4.12.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfburn_0.6.2-1build1_amd64.deb
+Size: 481638
+MD5sum: 206f2110398465df96967b58febf9034
+SHA1: c16510b76d64279d39ce17c244d94d87f4d08996
+SHA256: 478c6ae9a575fdc833b0b8f4db3b972455046d016102ba2619684918a07c87ef
+Section: xfce
+Priority: optional
+Homepage: https://goodies.xfce.org/projects/applications/xfburn
+Description: CD-burner application for Xfce Desktop Environment
+ Xfburn is a tool to help burning CDs and DVDs. It fits well in the Xfce
+ Desktop Environment but can be used anywhere.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4
+Version: 4.16
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 16
+Depends: libxfce4ui-utils (>= 4.16), thunar (>= 4.16), xfce4-appfinder (>= 4.16.0), xfce4-panel (>= 4.16.0), xfce4-pulseaudio-plugin, xfce4-session (>= 4.16.0), xfce4-settings (>= 4.16.0), xfconf (>= 4.16.0), xfdesktop4 (>= 4.16.0), xfwm4 (>= 4.16.0)
+Recommends: desktop-base (>= 5.0.4), tango-icon-theme (>= 0.8.90), thunar-volman (>= 4.16), xfce4-notifyd, xorg
+Suggests: xfce4-goodies, xfce4-power-manager (>= 4.16)
+Filename: ./xfce4_4.16_all.deb
+Size: 5016
+MD5sum: 035d09a8a18ff5eca3fc919cf4c24c0c
+SHA1: ba04883fbda3aa792e2d72ba0e84012a3e140777
+SHA256: ac2f489c59716b3c9abeee60631e351c4441e39e3bd05cbf45c346d44fa7e8e4
+Section: metapackages
+Priority: optional
+Homepage: https://www.xfce.org/
+Description: Meta-package for the Xfce Lightweight Desktop Environment
+ Xfce is a lightweight desktop environment for unix-like operating systems.
+ It aims to be fast and lightweight, while still being visually appealing and
+ easy to use.  Designed for productivity, it loads and executes applications
+ fast, while conserving system resources.
+ .
+ This package is a metapackage; it depends on the core packages of the Xfce4
+ desktop environment and recommends some extra Xfce4 packages.  If you intend
+ to use Xfce4 and want the full experience then installing this package and the
+ packages it Recommends is a great place to start.
+ .
+ If you just want to pick and choose the core components then feel free to
+ remove this package.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-appfinder
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 950
+Depends: libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgarcon-1-0 (>= 4.17.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libxfce4ui-2-0 (>= 4.15.6), libxfce4util7 (>= 4.17.1), libxfconf-0-3 (>= 4.6.0)
+Filename: ./xfce4-appfinder_4.18.0-1~bpo22.04_amd64.deb
+Size: 180468
+MD5sum: a24cc608d30f99f8404a91313ba393a6
+SHA1: 9a175688e6bca4d5994ef0161ff70cc8c9bddc53
+SHA256: 775a1ab2cd979bcf42e5fb9385b59ab16ecdbbba6c71acb911970893ff516215
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfce4-appfinder/start
+Description: Application finder for the Xfce4 desktop environment
+ This is an application finder for the Xfce4 desktop environment.
+ It will search for installed applications on your system. It can also be used
+ to browse installed applications by category, run them or edit their launchers.
+ .
+ xfce4-appfinder can also be used with a shortcut command to quickly run
+ applications, and also supports custom prefixes to execute custom commands on
+ provided paramers.
+
+Package: xfce4-appmenu-plugin
+Source: vala-panel-appmenu
+Version: 0.7.6+dfsg1-4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 228
+Depends: bamfdaemon, vala-panel-appmenu-common (= 0.7.6+dfsg1-4), appmenu-registrar (>= 0.7.1), libbamf3-2 (>= 0.2.110), libc6 (>= 2.7), libglib2.0-0 (>= 2.52.0), libgtk-3-0 (>= 3.22.0), libxfce4panel-2.0-4 (>= 4.11.0), libxfconf-0-3 (>= 4.6.0)
+Recommends: appmenu-qt5, libdbusmenu-glib4, libdbusmenu-gtk3-4, libdbusmenu-gtk4, appmenu-gtk2-module, appmenu-gtk3-module
+Filename: ./xfce4-appmenu-plugin_0.7.6+dfsg1-4_amd64.deb
+Size: 68600
+MD5sum: f6ae6c8d3ad788056d6754b14a1c4250
+SHA1: dd9515674882ef31313dfe1218e0ce163160b590
+SHA256: 0740891bb3e1a56c61b5ddfde91c64d7bb50deed0805b294a4dc6b476c33efbd
+Section: xfce
+Priority: optional
+Homepage: https://gitlab.com/vala-panel-project/vala-panel-appmenu
+Description: Application Menu plugin for xfce4-panel
+ This is an Application Menu (Global Menu) plugin. It is built using
+ the Unity protocol and libraries and provides all features found in
+ the Unity implementation.
+ .
+ This package provides the plugin for Xfce.
+Original-Maintainer: Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
+
+Package: xfce4-battery-plugin
+Version: 1.1.4-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 680
+Depends: libc6 (>= 2.27), libglib2.0-0 (>= 2.26.0), libgtk-3-0 (>= 3.16.2), libxfce4panel-2.0-4 (>= 4.12.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-battery-plugin_1.1.4-1~bpo22.04_amd64.deb
+Size: 104930
+MD5sum: cd2730c8656deb75f39d20dba5dae721
+SHA1: 630279b99267bbb3daa93efd66c22de372ff633e
+SHA256: 2b1bc108522a7f227bcd6e21d8aad8c12b7f3768ba4dbc370e3013c788f700ab
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-battery-plugin/start
+Description: battery monitor plugin for the Xfce4 panel
+ A battery monitor panel plugin for Xfce4, compatible with APM and ACPI, using
+ either /proc files or the new sysfs files for recent kernels.  You can use this
+ applet to monitor your battery level and be notified when your battery reaches
+ low and critcal levels. The applet can even be programmed to execute a command
+ on low and critcal levels.
+
+Package: xfce4-clipman
+Source: xfce4-clipman-plugin
+Version: 2:1.6.2-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 942
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.22.29), libqrencode4 (>= 3.2.0), libx11-6, libxfce4ui-2-0 (>= 4.15.1), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxtst6
+Filename: ./xfce4-clipman_2%3a1.6.2-1_amd64.deb
+Size: 158266
+MD5sum: 7ed73fd651f2fb7c644d60dd1faa3c71
+SHA1: 0e04d976be03901b71e109e3fa61ab76f2a0891e
+SHA256: e13462705f3cc2579a3119557ca6c9ac3400d9977182386da9fb989b5efe9e03
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-clipman-plugin
+Description: clipboard history utility
+ Clipman enables you to store and recall X selections, as well as GTK+
+ clipboard content. You can also define actions to be triggered by selecting
+ some text pattern.
+ .
+ This package uses Xfce libraries but can be used without the Xfce panel
+ and only requires a system tray (notification area).
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-clipman-plugin
+Version: 2:1.6.2-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 96
+Depends: xfce4-clipman, libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.19.12), libqrencode4 (>= 3.2.0), libx11-6, libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.13.5), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxtst6
+Filename: ./xfce4-clipman-plugin_2%3a1.6.2-1_amd64.deb
+Size: 26742
+MD5sum: 83d836f16360cbb5ad5c092af8df3885
+SHA1: 68aaa56b964705323f619e438bead79ce9ca6d98
+SHA256: 3d22245f55b1daa1be380f46778706922955c82571a316172511faed0b3fbd64
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-clipman-plugin
+Description: clipboard history plugin for Xfce panel
+ Clipman enables you to store and recall X selections, as well as GTK+
+ clipboard content. You can also define actions to be triggered by selecting
+ some text pattern.
+ .
+ This package contains the Xfce panel plugin.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-cpufreq-plugin
+Version: 1.2.8-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 543
+Depends: libc6 (>= 2.32), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.3.1), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.16.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.17.2)
+Filename: ./xfce4-cpufreq-plugin_1.2.8-1~bpo22.04_amd64.deb
+Size: 110746
+MD5sum: 60f8d032d00fa677a6a243b6e6d183f8
+SHA1: 51ada2c80e04ac61c64e999bfe11a2e778146283
+SHA256: 9640ef2cfb6a5f51ee07721998fcc06b33226672c0f507b37345e5f27729d0ca
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-cpufreq-plugin
+Description: cpufreq information plugin for the Xfce4 panel
+ This plugin displays the current frequency of the CPU, in GHz or MHz as
+ necessary. It also displays the frequency relative to the maximum CPU
+ frequency as an accordingly colored progress bar.
+
+Package: xfce4-cpugraph-plugin
+Version: 1.2.7-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 598
+Depends: libc6 (>= 2.32), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.16.2), libstdc++6 (>= 11), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.17.2)
+Filename: ./xfce4-cpugraph-plugin_1.2.7-1~bpo22.04_amd64.deb
+Size: 116342
+MD5sum: 62effd0c27f7a8fb3b7e3b098dfbfa4a
+SHA1: 86bf5fae7c91d7d0f4d17c79118c3d56a85423cc
+SHA256: cbe88b09f3508e13cf62c81b46b0af6168083fc1207cdc82ef056e2bab643b4a
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-cpugraph-plugin
+Description: CPU load graph plugin for the Xfce4 panel
+ CPU graph is a plugin for the Xfce desktop environment panel. It displays a
+ graph of the recent system load using information provided by the kernel.
+
+Package: xfce4-datetime-plugin
+Version: 0.8.2-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 300
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.16.2), libpango-1.0-0 (>= 1.14.0), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-datetime-plugin_0.8.2-1~bpo22.04_amd64.deb
+Size: 37954
+MD5sum: 2a42a3b532afb41f74d2f8a18d99ced7
+SHA1: 0d3ca583b72ef6922c4828103e397ba4e221be87
+SHA256: 173895ac1ea454b3c579e0de788eb2a0d60acdf0dd0487894570ccbd2a8bc7eb
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-datetime-plugin
+Description: date and time plugin for the Xfce4 panel
+ This plugin shows the date and time in the panel, and a calendar appears when
+ you left-click on it.
+
+Package: xfce4-dev-tools
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 96
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.12.0)
+Recommends: autoconf, automake, intltool, libtool
+Suggests: docker.io
+Filename: ./xfce4-dev-tools_4.18.0-1~bpo22.04_amd64.deb
+Size: 31626
+MD5sum: a65f434409e77991cf284c654068df85
+SHA1: 83bc18b1703fea76a6925bad6cd70ccfd05140db
+SHA256: f09197adc1a702fb699711af404fff3cd4080bdd08838abe3eeef3cea8ed0330
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfce4-dev-tools/start
+Description: Script to help building Xfce from git
+ xfce4-dev-tools provide an easy way to handle the setup and maintenance of a
+ projects build framework. It's required to build Xfce applications from git.
+
+Package: xfce4-dict
+Version: 0.8.4-1build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1038
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.19.12), libpango-1.0-0 (>= 1.14.0), libx11-6, libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0)
+Recommends: aspell | ispell
+Provides: dict-client
+Filename: ./xfce4-dict_0.8.4-1build1_amd64.deb
+Size: 184100
+MD5sum: 0131f76b47bab70f34edf3ce12861380
+SHA1: 0a1baace73ee1b767b60f45ad44523008aeda892
+SHA256: 06aa9c44354d504a26b0c68284bec39862b324b896f79e83a0d6fc38b9cf5a3f
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/apps/xfce4-dict/start
+Description: Dictionary plugin for Xfce4 panel
+ This program allows you to search different kinds of dictionary services for
+ words or phrases and shows you the result. Currently you can query a Dict
+ server (RFC 2229), any online dictionary service by opening a web browser or
+ search for words using the aspell/ispell program.
+ .
+ xfce4-dict contains a stand-alone application called “xfce4-dict” and a panel
+ plugin for the Xfce panel.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-diskperf-plugin
+Version: 2.7.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 377
+Depends: libc6 (>= 2.33), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.16.2), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-diskperf-plugin_2.7.0-1~bpo22.04_amd64.deb
+Size: 57844
+MD5sum: c566140eb27dc58e6d2bffdc51555f1f
+SHA1: 06ce9503d989730699699698332025858e5c9ec5
+SHA256: dfc967ae8baf7a5e9ad8a04591556ba06646c6b830bc96b25df9f39e60a4cc13
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-diskperf-plugin
+Description: disk performance display plugin for the Xfce4 panel
+ DiskPerf is a plugin for the Xfce desktop environment panel. It displays disks
+ and partitions performance statistics based on the rsect/wsect data provided
+ by the Linux kernel.
+
+Package: xfce4-eyes-plugin
+Version: 4.6.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Unit 193 <unit193@debian.org>
+Installed-Size: 294
+Depends: libc6 (>= 2.35), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.19.12), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-eyes-plugin_4.6.0-1~bpo22.04_amd64.deb
+Size: 47648
+MD5sum: 30dc6801739b8d6c637347856de42051
+SHA1: 4c6ae034f0cf1ba9350babebf2a5d762df6b0b8e
+SHA256: 1184aaa30750fd89d7a411094e0daaa9a01a56f3c899ec09872b293a684ca586
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-eyes-plugin
+Description: eyes that follow your mouse for the Xfce4 panel
+ This plugin adds eyes to the Xfce panel which follow your cursor, similar to
+ the xeyes program.
+ .
+ It has several different choices of themes, so you can have something fairly
+ normal watching you, or a bizarre monster staring at your mouse.
+
+Package: xfce4-fsguard-plugin
+Version: 1.1.2-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 432
+Depends: libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.16.2), libxfce4panel-2.0-4 (>= 4.12.0), libxfce4ui-2-0 (>= 4.12.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-fsguard-plugin_1.1.2-1_amd64.deb
+Size: 58568
+MD5sum: 197204e97db3bdc783fc543e3e34a543
+SHA1: 66e4499cace13e2a46594c37953a75aa43fa1a03
+SHA256: f3bde40b83344a6fda31b624db108bd22ee00246dab8fc7748a1c3daefa084f6
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-fsguard-plugin
+Description: filesystem monitor plugin for the Xfce4 panel
+ The fsguard plugin checks free space on a chosen mount point
+ frequently and displays an alarm if free space is less than
+ given alarm limit.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-genmon-plugin
+Version: 4.1.1-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 380
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.16.2), libpango-1.0-0 (>= 1.14.0), libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-genmon-plugin_4.1.1-1_amd64.deb
+Size: 50756
+MD5sum: ace020d8cf1f0eea84260898c67fb5a4
+SHA1: 29ce59b1949861a7001860e390d169f6f6100e8b
+SHA256: 74410944c4b4fb40ef0f6463f260767dc8c95491dd8cca2afe3b4d86af1c09a9
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-genmon-plugin
+Description: Generic Monitor for the Xfce4 panel
+ This plugin repeatedly spawns the indicated script/program, displaying
+ its output as a string in the panel. It is useful for periodic status
+ monitoring.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-goodies
+Version: 4.14.0
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 10
+Depends: mousepad, ristretto, thunar-archive-plugin, thunar-media-tags-plugin, xfburn, xfce4-battery-plugin, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-datetime-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, xfce4-genmon-plugin, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd | notification-daemon | notify-osd, xfce4-places-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin
+Recommends: xfce4-power-manager
+Suggests: gigolo, parole, xfce4-indicator-plugin, xfce4-mpc-plugin, xfce4-notes-plugin, xfce4-radio-plugin
+Filename: ./xfce4-goodies_4.14.0_amd64.deb
+Size: 3868
+MD5sum: 37d00724538c4abe401a2d9e3be8e665
+SHA1: 6372d260095dd3c1c88d0f4fc7ed13ce0199ebd9
+SHA256: 901049602509b0d2e16925eedfe4db3fc5192cff54bc5baf39fd698fb9bc5d71
+Section: metapackages
+Priority: optional
+Homepage: https://goodies.xfce.org/
+Description: enhancements for the Xfce4 Desktop Environment
+ The "Goodies for Xfce" project includes additional software and artwork that
+ are related to the Xfce desktop, but not part of the official release.
+ .
+ This package will install the following Xfce4 related plugins:
+   * Extra artwork (xfce4-artwork)
+   * Battery levels monitor (xfce4-battery-plugin)
+   * Clipboard history (xfce4-clipman-plugin)
+   * CPU frequency management plugin (xfce4-cpufreq-plugin)
+   * CPU utilisation graphs (xfce4-cpugraph-plugin)
+   * Date and time plugin (xfce4-datetime-plugin)
+   * Disk performance display (xfce4-diskperf-plugin)
+   * Filesystem monitor (xfce4-fsguard-plugin)
+   * Generic monitor, for displaying any command result (xfce4-genmon-plugin)
+   * Mail watcher (xfce4-mailwatch-plugin)
+   * Network load monitor (xfce4-netload-plugin)
+   * Notes plugin (xfce4-notes-plugin)
+   * Quick access to bookmarked folders, recent documents and removable
+     media (xfce4-places-plugin)
+   * Sensors plugin, frontend to lm-sensors (xfce4-sensors-plugin)
+   * Smartbookmarks plugin (xfce4-smartbookmark-plugin)
+   * System load monitor (xfce4-systemload-plugin)
+   * Timer plugin (xfce4-timer-plugin)
+   * Command line with history (xfce4-verve-plugin)
+   * Wireless lan monitor (xfce4-wavelan-plugin)
+   * Weather monitor (xfce4-weather-plugin)
+   * Keyboard configuration (xfce4-xkb-plugin)
+   * Archive management for Thunar (thunar-archive-plugin)
+   * Media tags editor for Thunar (thunar-media-tags-plugin)
+   * Alternate menu plugin (xfce4-whiskermenu-plugin)
+ .
+ It'll install some standalone applications too:
+   * Tiny text editor (mousepad)
+   * Images viewer (ristretto)
+   * CD/DVD burner (xfburn)
+   * Frontend to dictionaries (xfce4-dict)
+   * Notification daemon (xfce4-notifyd)
+   * Tool to take screenshots (xfce4-screenshooter)
+   * Task manager (xfce4-taskmanager)
+   * Terminal emulator (xfce4-terminal)
+ .
+ Some packages are only suggested because they bring too much dependencies,
+ but you may find them interesting:
+   * Cellular modem plugin (xfce4-cellmodem-plugin)
+   * Indicator (conform to the Ubuntu MessagingMenu specification) plugin
+     (xfce4-indicator-plugin)
+   * Another commandline plugin (xfce4-minicmd-plugin)
+   * Frontends to MPD (xfce4-mpc-plugin, xfmpc)
+   * Radio plugin (xfce4-radio-plugin))
+   * GIO/GVfs frontend to manage connections to remote filesystems (gigolo)
+   * Media player (parole)
+   * Power Manager (xfce4-power-manager)
+ .
+ This is a metapackage to ease upgrades, installations, and provide a
+ consistent upgrade path from previous versions. It can safely be removed with
+ no ill effects.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-helpers
+Source: xfce4-settings
+Version: 4.18.2-1ubuntu1~bpo22.04
+Architecture: amd64
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Installed-Size: 170
+Depends: python3, python3-urllib3
+Suggests: sensible-utils
+Breaks: libexo-common (<< 4.15), libexo-helpers
+Replaces: libexo-common (<< 4.15), libexo-helpers
+Filename: ./xfce4-helpers_4.18.2-1ubuntu1~bpo22.04_amd64.deb
+Size: 43994
+MD5sum: b33affc03581f2cf198bd3c34ce28526
+SHA1: 982291833043ae160e3e83c8d0bf19897bf0cf42
+SHA256: bf7e680f12238395e3ca733f8c604f584c229ac4f9b10a038913f426c23d4905
+Section: xfce
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/xfce4-settings/start
+Description: helpers for the Xfce4 desktop environment
+ This package contains the helper files in use by Xfce4 for its
+ preferred applications framework.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-indicator-plugin
+Version: 2.4.1-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 459
+Depends: libayatana-ido3-0.4-0 (>= 0.4.0), libayatana-indicator3-7 (>= 0.6.0), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0)
+Recommends: ayatana-indicator-application
+Provides: indicator-renderer
+Filename: ./xfce4-indicator-plugin_2.4.1-1_amd64.deb
+Size: 79712
+MD5sum: 8cb3af32b76b0424f60e4f059401a60f
+SHA1: 4a10701dd4e561e200b7e8ee9862721ab38dbc99
+SHA256: e4caab49533724cae004a4e8538c42c777b62513f479f10896c8340946673070
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-indicator-plugin
+Description: plugin to display information from applications in the Xfce4 panel
+ A small plugin to display information from various applications consistently
+ in the Xfce4 panel as described in Ubuntus MessagingMenu design specification.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-mailwatch-plugin
+Version: 1.3.0-0ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 907
+Depends: libc6 (>= 2.33), libexo-2-0 (>= 0.11.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgnutls30 (>= 3.7.2), libgtk-3-0 (>= 3.21.4), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.15.1), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-mailwatch-plugin_1.3.0-0ubuntu2_amd64.deb
+Size: 175810
+MD5sum: 3936585d6836ae47714ccd0886de6b2a
+SHA1: b14d2921c7d8e92a03509addded7d28a1c88e2ea
+SHA256: 10544c77727995eeb3c18728830cfcb8d994d4491886d3c7d10dfbe7e10610c3
+Section: xfce
+Priority: optional
+Homepage: http://spuriousinterrupt.org/projects/mailwatch
+Description: mail watcher plugin for the Xfce4 panel
+ Xfce4 Mailwatch Plugin is a multi-protocol, multi-mailbox mail watcher for the
+ Xfce4 panel. It can display a notification when new mail is received.
+ .
+ It has support for local (mailbox, maildir and MH-maildir) mail, POP3/POP3S
+ and IMAP/IMAPS servers as well as GMail.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-mount-plugin
+Version: 1.1.5-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 438
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.21.5), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.12.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-mount-plugin_1.1.5-1_amd64.deb
+Size: 66280
+MD5sum: ae6699f691585d6849344495fbbac918
+SHA1: 7c7ab933ebf8b14369888f936f42f3f3f8b809a8
+SHA256: 189ed6de4862032658736ed40ae3719fe499e7f95510d22692df12a99b2a45dd
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-mount-plugin
+Description: mount plugin for the Xfce4 panel
+ This plugin for Xfce displays a list of the various devices available, giving
+ the opportunity to mount/umount them.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-mpc-plugin
+Version: 0.5.2-2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 312
+Depends: libc6 (>= 2.15), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.16.2), libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0)
+Suggests: mpd
+Filename: ./xfce4-mpc-plugin_0.5.2-2_amd64.deb
+Size: 39112
+MD5sum: 276eff79cec2ed13f3c09c12b00db2b8
+SHA1: 8c5bb05780731776199737afee5dccc17fc2cad7
+SHA256: 8b0a9a33866bf0c16f56d92cf69b3b5350e54b263caddede360fe86869a5b565
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-mpc-plugin
+Description: Xfce panel plugin which serves as client for MPD music player
+ This is a client for MPD music player which is added into a Xfce panel as a
+ plugin. It can control the playback and show the currently playing song.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-netload-plugin
+Version: 1.4.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 378
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.16.2), libxfce4panel-2.0-4 (>= 4.12.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-netload-plugin_1.4.0-1~bpo22.04_amd64.deb
+Size: 60564
+MD5sum: 7a08c57998f74e13b855bc80d9e46565
+SHA1: 5933686faf3a505cacfcac35509426bdea4fe6f7
+SHA256: bd97b3cf8ffbb8d4daebf5769332b1de94c5af45886248b1fd20ab61a150dd7f
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-netload-plugin/start
+Description: network load monitor plugin for the Xfce4 panel
+ This plugin displays the current load of the network interfaces of your choice
+ in the panel.
+
+Package: xfce4-notes
+Source: xfce4-notes-plugin
+Version: 1.9.0-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 597
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.19.12), libpango-1.0-0 (>= 1.14.0), libxfce4ui-2-0 (>= 4.14), libxfce4util7 (>= 4.14), libxfconf-0-3 (>= 4.14)
+Filename: ./xfce4-notes_1.9.0-1_amd64.deb
+Size: 100772
+MD5sum: f828fa1c0fbe227d216699cedddb7b4d
+SHA1: de3fac06227e761dfc793b8f5101d361007a60b4
+SHA256: e7a3ce584dd8aa06eb0e5c21f37c9f05988fa6a8236a7305d778397ae254a6ad
+Section: xfce
+Priority: optional
+Homepage: https://goodies.xfce.org/projects/panel-plugins/xfce4-notes-plugin
+Description: Notes application for the Xfce4 desktop
+ The notes tool provides you a simple text editor in a little window for the
+ Xfce 4 desktop.  Notes are especially useful for temporary stuff.
+ .
+ It supports multiple notes through a notebook. Click on the upper left
+ corner button to open a new note.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-notes-plugin
+Version: 1.9.0-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 165
+Depends: xfce4-notes, libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.19.12), libpango-1.0-0 (>= 1.14.0), libxfce4panel-2.0-4 (>= 4.14), libxfce4util7 (>= 4.14), libxfconf-0-3 (>= 4.14)
+Filename: ./xfce4-notes-plugin_1.9.0-1_amd64.deb
+Size: 45048
+MD5sum: bf12c905e9e149ac6dc2f19efdb6f091
+SHA1: c40d73c62e1b1f690b4271c1ffc2ebbe8f7e0533
+SHA256: afa1574520cc71fcfd25ff25e25f125d8616314b3c248dbbd0351725658973bc
+Section: xfce
+Priority: optional
+Homepage: https://goodies.xfce.org/projects/panel-plugins/xfce4-notes-plugin
+Description: Notes plugin for the Xfce4 desktop
+ The notes tool provides you a simple text editor in a little window for the
+ Xfce 4 desktop.  Notes are especially useful for temporary stuff.
+ .
+ It supports multiple notes through a notebook. Click on the upper left
+ corner button to open a new note.
+ .
+ This package contains the xfce4-panel plugin.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-notifyd
+Version: 0.7.3-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 912
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libnotify4 (>= 0.7.0), libx11-6, libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.12), libxfconf-0-3 (>= 4.12)
+Recommends: libnotify-bin
+Provides: notification-daemon
+Filename: ./xfce4-notifyd_0.7.3-1~bpo22.04_amd64.deb
+Size: 168056
+MD5sum: ceb013c1cb8bc4c272ee6658f7ed85b5
+SHA1: 561ed5dd14634e8186ca9d439feacba04bedcc07
+SHA256: 745b92dba51999c4964f8344d69dfbaddacef7349b6afde7fea6d05ca8382be3
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/apps/notifyd/start
+Description: simple, visually-appealing notification daemon for Xfce
+ Xfce4-notifyd is a simple, visually-appealing notification daemon for Xfce
+ that implements the Freedesktop.org Desktop Notifications Specification.
+ .
+ Features:
+  * Themable using the GTK+ theming mechanism
+  * Visually appealing: rounded corners, shaped windows
+  * Supports transparency and fade effects
+
+Package: xfce4-panel
+Version: 4.18.2-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 3927
+Depends: exo-utils, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdbusmenu-gtk3-4 (>= 0.4.2), libexo-2-0 (>= 0.11.0), libgarcon-1-0 (>= 4.17.0), libgarcon-gtk3-1-0 (>= 4.17.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.67.3), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libwnck-3-0 (>= 3.4.7), libx11-6, libxext6, libxfce4panel-2.0-4 (>= 4.17.2), libxfce4ui-2-0 (>= 4.17.2), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.12.1)
+Filename: ./xfce4-panel_4.18.2-1~bpo22.04_amd64.deb
+Size: 796512
+MD5sum: 98688059c8cedf1e956acbc77cdbf251
+SHA1: f30dcafa367767ebb85ed559a9988e67608d9f19
+SHA256: 02f5cee41a87e18214e2bf098ddb37fd9dd3298535dcfb91b474edd453b3fec5
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfce4-panel/start
+Description: panel for Xfce4 desktop environment
+ This is the panel provided by the Xfce4 desktop project.  If you want a
+ multi-functional panel that can even handle plugins and the like, xfce4-panel
+ might be worth a try.
+
+Package: xfce4-panel-profiles
+Version: 1.0.13-1.1~bpo22.04
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 449
+Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-libxfce4ui-2.0, python3:any
+Enhances: xfce4-panel
+Breaks: xfpanel-switch (<< 1.0.9~)
+Replaces: xfpanel-switch (<< 1.0.9~)
+Filename: ./xfce4-panel-profiles_1.0.13-1.1~bpo22.04_all.deb
+Size: 81716
+MD5sum: ab8e61c94cdaf7582cf42f923e41cc1e
+SHA1: f545281e7a012c1a4d23567327d47b8d20fc0472
+SHA256: 66febae712cc4173ac1711cbeb294d51cfc0a7786083187f36cff43fc2477424
+Section: xfce
+Priority: optional
+Homepage: https://gitlab.xfce.org/apps/xfce4-panel-profiles/
+Description: layout manager for the Xfce panel
+ Xfce Panel Profiles (xfce4-panel-profiles) is a simple application to
+ manage Xfce panel layouts. This tool makes it possible to backup,
+ restore, import, and export these panel layouts.
+
+Package: xfce4-places-plugin
+Version: 1.8.3-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 452
+Depends: thunar, libc6 (>= 2.33), libexo-2-0 (>= 0.11.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.49.2), libgtk-3-0 (>= 3.21.5), libnotify4 (>= 0.7.0), libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0)
+Filename: ./xfce4-places-plugin_1.8.3-1~bpo22.04_amd64.deb
+Size: 77742
+MD5sum: 561ca5c8fc5b5e3b53049173417a8347
+SHA1: 42356a4f22a344471de5a7b170c40b6e62c47317
+SHA256: 5131f05abbb83372a0e90605be20f8384681e6b368a1bb2c384c6576b19566b2
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-places-plugin/start
+Description: quick access to folders, documents and removable media
+ This plugin brings much of the functionality of GNOME’s Places menu to Xfce.
+ It puts a simple button on the panel. Clicking on this button opens up a menu
+ with 4 sections:
+  - System-defined directories (home folder, trash, desktop, file system)
+  - Removable media (using thunar-vfs)
+  - User-defined bookmarks (reads ~/.gtk-bookmarks)
+  - Recent documents submenu
+
+Package: xfce4-power-manager
+Version: 4.18.1-1~bpo22.04mint1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 470
+Depends: upower, xfce4-power-manager-data (= 4.18.1-1~bpo22.04mint1), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.21.5), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libupower-glib3 (>= 0.99.8), libx11-6, libxext6, libxfce4ui-2-0 (>= 4.18.2), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxrandr2 (>= 2:1.2.99.2)
+Recommends: default-logind | logind, xfce4-power-manager-plugins
+Filename: ./xfce4-power-manager_4.18.1-1~bpo22.04mint1_amd64.deb
+Size: 121984
+MD5sum: 5363a3559c57a55befbe1cc23213cff5
+SHA1: 3168717a4dff35b898a938dc92d068dcb30931fb
+SHA256: da782dbfb61d0140e3a52ad90151fc505d4f6a10e389a7a8e5e4bc024192254f
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Description: power manager for Xfce desktop
+ This power manager for the Xfce desktop enables laptop users to set up
+ a power profile for two different modes "on battery power" and "on ac
+ power" while still allowing desktop users to at least change the DPMS
+ settings and CPU frequency using the settings dialogue..
+ .
+ It features:
+   * battery monitoring
+   * cpu frequency settings
+   * monitor DPMS settings
+   * suspend/Hibernate
+   * LCD brightness control
+   * Lid, sleep and power switches control
+
+Package: xfce4-power-manager-data
+Source: xfce4-power-manager
+Version: 4.18.1-1~bpo22.04mint1
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 3408
+Recommends: librsvg2-common, xfce4-power-manager
+Filename: ./xfce4-power-manager-data_4.18.1-1~bpo22.04mint1_all.deb
+Size: 416408
+MD5sum: 338035d042f221b86521b7a84e28ccfc
+SHA1: 87d2e2d5467ae51082d174956bed4f00636b766e
+SHA256: 5082354a7971c73844200a825cea9ef8861c7bd8171ba6ffdae97bcb52a81285
+Section: xfce
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Description: power manager for Xfce desktop, arch-indep files
+ This power manager for the Xfce desktop enables laptop users to set up
+ a power profile for two different modes "on battery power" and "on ac
+ power" while still allowing desktop users to at least change the DPMS
+ settings and CPU frequency using the settings dialogue..
+ .
+ This package contains architecture-independant files.
+
+Package: xfce4-power-manager-plugins
+Source: xfce4-power-manager
+Version: 4.18.1-1~bpo22.04mint1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 124
+Depends: xfce4-power-manager, libc6 (>= 2.27), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libupower-glib3 (>= 0.99.8), libx11-6, libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxrandr2 (>= 2:1.2.99.2)
+Filename: ./xfce4-power-manager-plugins_4.18.1-1~bpo22.04mint1_amd64.deb
+Size: 45596
+MD5sum: bc5c89174e5afc85e7db502a31f280bc
+SHA1: 5bb0b4781bd986fbad970e5417fed0cdf4ec0153
+SHA256: ddbcc93b18e40e503b829b2d2410db76b57b8008a526a8d361a20419ccc2a3c2
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Description: power manager plugins for Xfce panel
+ This power manager for the Xfce desktop enables laptop users to set up
+ a power profile for two different modes "on battery power" and "on ac
+ power" while still allowing desktop users to at least change the DPMS
+ settings and CPU frequency using the settings dialogue..
+ .
+ This package contains the brightness plugin.
+
+Package: xfce4-pulseaudio-plugin
+Version: 0.4.5-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 553
+Depends: libc6 (>= 2.4), libexo-2-0 (>= 0.11.0), libglib2.0-0 (>= 2.43.2), libgtk-3-0 (>= 3.19.12), libkeybinder-3.0-0 (>= 0.3.0), libnotify4 (>= 0.7.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libwnck-3-0 (>= 2.91.6), libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0)
+Recommends: pavucontrol, pulseaudio
+Filename: ./xfce4-pulseaudio-plugin_0.4.5-1~bpo22.04_amd64.deb
+Size: 100328
+MD5sum: f92d73f3111f808d8601428448be636b
+SHA1: b373bd048108f5bf363e6b7ea9403846baa6db6e
+SHA256: a635f326519c31721b31e2162b291de380c08b757bd99ca9af7e5c43e40f5ebe
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-pulseaudio-plugin
+Description: Xfce4 panel plugin to control pulseaudio
+ Xfce4 panel plugin icon to control Pulseaudio. You can use this applet to
+ control your Pulseaudio volume levels with the media keys or using the
+ scrollwheel. You can also open a Pulseaudio mixer via the plugin.
+
+Package: xfce4-screensaver
+Version: 4.18.1-1+victoria
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1276
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libgarcon-1-0 (>= 0.1.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.4), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.18.0), libsystemd0, libwnck-3-0 (>= 2.91.6), libx11-6, libxext6, libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxklavier16 (>= 5.0), libxss1
+Recommends: gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-libxfce4util-1.0, gir1.2-xfconf-0, python3, python3-gi
+Filename: ./xfce4-screensaver_4.18.1-1+victoria_amd64.deb
+Size: 242828
+MD5sum: b8b3372ccbd80e70d32b85f8c521ed73
+SHA1: fc40322b4868553d743c55233eec9db04e69ec71
+SHA256: 84fc2be9a097c4ab22b1b1c6da4cbc13faa20d3c7e1b931f2371cf9c27785f13
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/apps/screensaver/start
+Description: screen saver and locker that is integrated with the xfce4 desktop
+ Xfce Screensaver is a screen saver and locker that aims to have simple,
+ sane, secure defaults and be well integrated with the Xfce desktop.
+ .
+ It is a port of MATE Screensaver, itself a port of GNOME Screensaver.
+ It has been tightly integrated with the Xfce desktop, utilizing Xfce
+ libraries and the Xfconf configuration backend.
+
+Package: xfce4-screenshooter
+Version: 1.10.3-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1139
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.10.0), libexo-2-0 (>= 0.11.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.65.1), libgtk-3-0 (>= 3.21.4), libpango-1.0-0 (>= 1.44.3), libsoup-3.0-0 (>= 3.0.3), libx11-6, libxext6, libxfce4ui-2-0 (>= 4.15.8), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxfixes3, libxml2 (>= 2.7.4)
+Recommends: libxfce4panel-2.0-4 (>= 4.13.0)
+Filename: ./xfce4-screenshooter_1.10.3-1~bpo22.04_amd64.deb
+Size: 206288
+MD5sum: dba8f94c9cc9e6bf2932b069b6dbc0fc
+SHA1: d86e24d5687156be5a3c694d15233d399a7c35c9
+SHA256: aced568341e2780b37eb146543bc18e72776b74853be85812d3d97ce73a257fa
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/apps/screenshooter/start
+Description: screenshots utility for Xfce
+ Screenshooter is an utility for the Xfce Desktop Environment. It can take
+ desktop, rectangles or selected window screenshots, and you can bind it to
+ your "Print Screen" key. A panel plugin is provided too.
+
+Package: xfce4-sensors-plugin
+Version: 1.4.4-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1036
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.16.2), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libsensors5 (>= 1:3.5.0), libstdc++6 (>= 5.2), libx11-6, libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.17.2), libxnvctrl0
+Recommends: lm-sensors
+Suggests: xsensors
+Filename: ./xfce4-sensors-plugin_1.4.4-1~bpo22.04_amd64.deb
+Size: 212318
+MD5sum: 7f9b7bf0cfbb47a8d9df8116dca16fa0
+SHA1: 97b39d0ca6b98cab01622b78ea01456fb3be6ed2
+SHA256: decd3cac0c66e7459a5ebde50f46dd3cc84bd840db8b97aec7bd6ead84df5178
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-sensors-plugin/start
+Description: hardware sensors plugin for the Xfce4 panel
+ The sensors plugin provides a handy way to monitor your hard disk,
+ processor, fans, and other critical hardware right on your
+ Xfce panel.
+
+Package: xfce4-session
+Version: 4.18.1-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1816
+Depends: xfce4-settings, xfconf, x11-xserver-utils, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libpolkit-gobject-1-0 (>= 0.101), libsm6, libwnck-3-0 (>= 2.91.6), libx11-6, libxfce4ui-2-0 (>= 4.18.2), libxfce4util7 (>= 4.15.3), libxfconf-0-3 (>= 4.6.0)
+Recommends: default-dbus-session-bus | dbus-session-bus, default-logind | logind, light-locker | xfce4-screensaver | xscreensaver | gnome-screensaver | mate-screensaver, systemd-sysv, upower, xfdesktop4, xfwm4
+Suggests: fortune-mod, sudo
+Breaks: xfce4-utils
+Replaces: xfce4-utils
+Provides: x-session-manager
+Filename: ./xfce4-session_4.18.1-1~bpo22.04_amd64.deb
+Size: 376354
+MD5sum: 6a7f3eb767a8e4b502e8f9055088c143
+SHA1: bf0b25411f8c2113f45640c7eedf79d0f4fe0ce0
+SHA256: 50ff9915ebc2421e4c7bbeb0d3e1a44de7212f9f42d3541dea6c9c47b8dc5d4d
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfce4-session/start
+Description: Xfce4 Session Manager
+ xfce4-session is an X11-compliant "session manager" designed for use with
+ the Xfce4 Desktop Environment. On log out, the session manager saves the
+ state of all your running applications. When you log back in, the session
+ manager restores the same applications with the same window positions.
+
+Package: xfce4-settings
+Version: 4.18.2-1ubuntu1~bpo22.04
+Architecture: amd64
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Installed-Size: 5007
+Depends: exo-utils, libgarcon-common, xfce4-helpers, xfconf, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libcolord2 (>= 1.4.3), libexo-2-0 (>= 0.11.0), libfontconfig1 (>= 2.12.6), libgarcon-1-0 (>= 0.6.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libupower-glib3 (>= 0.99.0), libx11-6, libxcursor1 (>> 1.1.2), libxfce4ui-2-0 (>= 4.17.2), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.6.0), libxi6 (>= 2:1.2.0), libxklavier16 (>= 5.0), libxrandr2 (>= 2:1.2.99.3)
+Recommends: colord, elementary-xfce-icon-theme, greybird-gtk-theme, x11-utils, xiccd
+Filename: ./xfce4-settings_4.18.2-1ubuntu1~bpo22.04_amd64.deb
+Size: 949980
+MD5sum: f4238f33c1b0777645a551cf2356f083
+SHA1: baebf9db4f8f50248ad8ff3189b2f5abc7855303
+SHA256: 68e159ec841b99be73803a8b7f1af8ba3e8717811adef036a9cceac809782b49
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfce4-settings/start
+Description: graphical application for managing Xfce settings
+ xfce4-settings is the Xfce settings manager front-end. It comes
+ with several different components for configuring application-independent
+ settings inside xfconf.
+ It contains multiple tools:
+  - xfce4-settings-manager (which replaces the old mcs settings manager),
+    which executes the various (provided) settings dialogs
+  - xfce4-settings-editor, a tool for editing ALL settings within xfconf, the
+    graphical counterpart of xfconf-query.
+  - xfsettingsd, a daemon for exporting XSettings to applications, and
+    providing special features like keyboard shortcuts, AccessX notification
+    and update of keyboard and mouse-pointer data.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-smartbookmark-plugin
+Version: 0.5.2-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 221
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.16.2), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.12.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-smartbookmark-plugin_0.5.2-1_amd64.deb
+Size: 22708
+MD5sum: d1590cb7c46ff676487a3fb8b819f7ac
+SHA1: b24ee3b39945c964edf5f2764e567dc80ac4c17b
+SHA256: 6db2ff72ccec2915f008fe5380450ca2c4820123408e96265e6486a0a53ca174
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-smartbookmark-plugin
+Description: search the web via the Xfce4 panel
+ This plugin adds a text field to the Xfce panel, allowing the user to search
+ the web. The URL and the text field size are configurable options.
+ .
+ Typical use cases are: Google, Wikipedia, the Debian Bug Tracking System
+ .
+ xfce4-smartbookmark-plugin is based on the smart bookmark concept:
+ http://en.wikipedia.org/wiki/Smart_Bookmark
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-sntray-plugin
+Version: 0.4.13.1-2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 273
+Depends: xfce4-sntray-plugin-common, libc6 (>= 2.4), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.50), libgtk-3-0 (>= 3.22), libpango-1.0-0 (>= 1.14.0), libxfce4panel-2.0-4 (>= 4.11.0), libxfconf-0-3 (>= 4.6.0)
+Filename: ./xfce4-sntray-plugin_0.4.13.1-2_amd64.deb
+Size: 84540
+MD5sum: 53421bf131fce221490aa7e30de2c630
+SHA1: d4f7873d76aed9a94f8dfce743a3d36f1f5eb737
+SHA256: daec8da3bcdaef2d12f14635bd919e90255c7163206b0800739eef553f9653a0
+Section: xfce
+Priority: optional
+Homepage: https://gitlab.com/vala-panel-project/xfce4-sntray-plugin
+Description: plugin for xfce4-panel to show StatusNotifierItems - Xfce
+ Plugin for xfce4-panel to show StatusNotifierItems
+ (also known as AppIndicators). Based on ValaPanel`s
+ StatusNotifier and xfce4-snw-plugin by equiem.
+ .
+ Xfce version of the plugin.
+Original-Maintainer: Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
+
+Package: xfce4-sntray-plugin-common
+Source: xfce4-sntray-plugin
+Version: 0.4.13.1-2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 618
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: vala-sntray-plugin (<< 0.4.12)
+Replaces: vala-sntray-plugin (<< 0.4.12)
+Filename: ./xfce4-sntray-plugin-common_0.4.13.1-2_all.deb
+Size: 12908
+MD5sum: 90135cee5571aa6601efeb44c1606361
+SHA1: 13633eb3a1bb533f37e93271eafffe119c236875
+SHA256: 0da4405d0188543b0e0ed5270916e8742c8211da6de3da60ef818855407537a7
+Section: xfce
+Priority: optional
+Homepage: https://gitlab.com/vala-panel-project/xfce4-sntray-plugin
+Description: plugin for xfce4-panel to show StatusNotifierItems - commoner
+ Plugin for xfce4-panel to show StatusNotifierItems
+ (also known as AppIndicators). Based on ValaPanel`s
+ StatusNotifier and xfce4-snw-plugin by equiem.
+ .
+ This package contains common files.
+Original-Maintainer: Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
+
+Package: xfce4-statusnotifier-plugin
+Version: 0.2.3-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 373
+Depends: libc6 (>= 2.4), libdbusmenu-gtk3-4 (>= 0.4.2), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.21.5), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0)
+Provides: indicator-renderer
+Filename: ./xfce4-statusnotifier-plugin_0.2.3-1_amd64.deb
+Size: 65072
+MD5sum: 61adfd33a26c02466351e5e52543c124
+SHA1: cce1d8574e3100db02a7d4b1e42530c5b0cca03e
+SHA256: 197a30ef0a38c84f8f3dff45bc5c81e94c04dfef00f53fdc720aa70eaf9c2984
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-statusnotifier-plugin
+Description: plugin to display status notifiers in the Xfce4 panel
+ A small plugin to display status notifiers, including application indicators,
+ in the Xfce4 panel as described in freedesktop.org StatusNotifierItem
+ specification. Status notifiers are a modern alternative to the system tray.
+Original-Maintainer: Unit 193 <unit193@debian.org>
+
+Package: xfce4-systemload-plugin
+Version: 1:1.3.2-2ubuntu1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 377
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.13.7), libgtop-2.0-11 (>= 2.22.3), libupower-glib3 (>= 0.99.0), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.12.1)
+Recommends: upower
+Filename: ./xfce4-systemload-plugin_1%3a1.3.2-2ubuntu1~bpo22.04_amd64.deb
+Size: 64540
+MD5sum: 7b7ab29e500c0b704b7d7bb516194cee
+SHA1: 845df7fb9458bde87dc2ee4f84bdf8f80f2899ca
+SHA256: 2904c2858f21dcd1713d0d0a38cb9819f029619909e8d72ae39fab95ebdbf332
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-systemload-plugin
+Description: system load monitor plugin for the Xfce4 panel
+ This plugins displays the current CPU load, the memory in use, the swap space
+ and the system uptime in the Xfce4 panel.
+
+Package: xfce4-taskmanager
+Version: 1.5.5-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 650
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libwnck-3-0 (>= 2.91.6), libx11-6, libxfce4ui-2-0 (>= 4.11.1), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxmu6 (>= 2:1.1.3)
+Filename: ./xfce4-taskmanager_1.5.5-1~bpo22.04_amd64.deb
+Size: 123098
+MD5sum: 010596d2bb3940a59e4ff6dc4951f666
+SHA1: bda875dda0671024a12ba5726b0a9519d587bf45
+SHA256: 54df441bc4fe71cda57cb8ef409530eb80bb69c476c7571815057105c4de71ee
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/apps/xfce4-taskmanager/start
+Description: process manager for the Xfce4 Desktop Environment
+ A GUI application for monitoring and controlling running processes,
+ written for Xfce. Its features include:
+ .
+  * support for Linux, OpenBSD, FreeBSD and OpenSolaris
+  * monitors the CPU and memory usage
+  * tree view columns can be reordered
+  * display window icons/names.
+
+Package: xfce4-terminal
+Version: 1.0.4-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2539
+Depends: exo-utils, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.6), libpango-1.0-0 (>= 1.14.0), libutempter0 (>= 1.1.5), libvte-2.91-0 (>= 0.51.90), libx11-6, libxfce4ui-2-0 (>= 4.15.3), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0)
+Recommends: default-dbus-session-bus | dbus-session-bus
+Provides: x-terminal-emulator
+Filename: ./xfce4-terminal_1.0.4-1~bpo22.04_amd64.deb
+Size: 496554
+MD5sum: bf7e84d74b9d41f60f0abb615ece9f9a
+SHA1: fe960609871a70d2a9f7a57e5e4a2ce91f73e91a
+SHA256: 6ca761b7b86bd842a81a08b6f3e94700bbc6d7775de97cf8fc60b5f8acc3d419
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/apps/terminal/start
+Description: Xfce terminal emulator
+ This package contains Terminal, which is a lightweight and easy to use
+ terminal emulator for X11. It was created to fit nicely into the Xfce
+ desktop environment, but it also fits nice with other environments.
+
+Package: xfce4-time-out-plugin
+Version: 1.1.2-0ubuntu1~bpo22.04
+Architecture: amd64
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Installed-Size: 375
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.19.12), libx11-6, libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-time-out-plugin_1.1.2-0ubuntu1~bpo22.04_amd64.deb
+Size: 62262
+MD5sum: 5effddc309e87ffffc9645309403afbc
+SHA1: e81f251c2afb48351e558e1d6876c68d49c3b98d
+SHA256: 58d5551a64e62aa76a74a73ce0c4039e6b35aff97a715290676bcc38cfa86c77
+Section: x11
+Priority: optional
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-time-out-plugin
+Description: time out plugin for the Xfce4 panel
+ This plugin makes it possible to take periodical breaks from the computer
+ every X minutes. During breaks it locks your screen.
+ It optionally allows you to postpone breaks for a certain time.
+
+Package: xfce4-timer-plugin
+Version: 1.7.1-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 378
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.21.5), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-timer-plugin_1.7.1-1_amd64.deb
+Size: 53360
+MD5sum: 368702098b466f1c2406972dd359f791
+SHA1: 2330f916fff86a0671fcd1875fc17e9b757fccdd
+SHA256: 4ffdbbaf6b69279c15836b9581e9bfe9a64db814bd105ee98e96d6e2993a5d50
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Description: timer plugin for Xfce panel
+ With this plugin you can add timers (alarm or countdown) to your Xfce
+ panel. You can display a warning window and/or run a custom command when
+ alarm rings, repeat alarms etc.
+ The timer progress is shown as a progress bar in the Xfce panel, lasting
+ time displayed on tooltip.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-verve-plugin
+Version: 2.0.1-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 347
+Depends: exo-utils, libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.3.16), libpcre3, libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-verve-plugin_2.0.1-1_amd64.deb
+Size: 42752
+MD5sum: d098eb8fa48e35ece11bd858688d4a46
+SHA1: f1d2b2eca876cd065d600f898b609ee98d2d2972
+SHA256: dfe0738fc45ee241f755a64fae93456d524ee4648e7c84c4108b3aaeb45e1fe2
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-verve-plugin
+Description: Verve (command line) plugin for Xfce panel
+ Verve plugin is a command line plugin for Xfce panel, with autocompletion
+ and command history
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-volumed
+Version: 0.2.0-0ubuntu3
+Architecture: amd64
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Installed-Size: 48
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.8.0), libkeybinder0 (>= 0.2.1), libnotify4 (>= 0.7.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libxfconf-0-3 (>= 4.6.0)
+Recommends: pulseaudio
+Filename: ./xfce4-volumed_0.2.0-0ubuntu3_amd64.deb
+Size: 12272
+MD5sum: aaa599ca226f9c3996fbb44a66bd04ef
+SHA1: f9f694ae504bf629b736852f701954578d0e4a61
+SHA256: 48303df6530913de2e7bd4aab49518cb4d58a40e043ec94916bee5fd663dced4
+Section: xfce
+Priority: optional
+Homepage: http://goodies.xfce.org/projects/applications/xfce4-volumed
+Description: volume keys daemon
+ This is a volume keys control daemon for Xfce Desktop environment. It controls
+ the volume using multimedia keys, for the card configured in xfce4-mixer. It
+ also provides volume change notifications.
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+
+Package: xfce4-wavelan-plugin
+Version: 0.6.3-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 302
+Depends: libc6 (>= 2.29), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.16.2), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0)
+Filename: ./xfce4-wavelan-plugin_0.6.3-1~bpo22.04_amd64.deb
+Size: 41640
+MD5sum: 4a1519ca5f6ec417ff3ee1811f21396a
+SHA1: 06605f721c03eaa3c30f90f415bf966cb19989ab
+SHA256: 3b9859b48435fc04bd54ab61d73128fe4db875644d12cbca7f4d33e899d8ca63
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-wavelan-plugin
+Description: wavelan status plugin for the Xfce4 panel
+ The WaveLAN plugin displays information of a WaveLAN device.
+ .
+ Current features are:
+  - Signal state: tells if a carrier signal was detected.
+  - Signal quality: current quality of the carrier signal.
+  - Network name: current SSID of the WaveLAN network.
+
+Package: xfce4-weather-plugin
+Version: 0.11.0-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 4911
+Depends: libc6 (>= 2.29), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.42), libgtk-3-0 (>= 3.22), libpango-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.41.90), libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxml2 (>= 2.7.4)
+Filename: ./xfce4-weather-plugin_0.11.0-1_amd64.deb
+Size: 2381304
+MD5sum: c4793695ef862f6b9eb23329af321752
+SHA1: 0bdec3176fe7ec66b235aba99af489fc3ebd08c8
+SHA256: 15f0eda65fba088e3e73348b41ef956d8be36b1275490137d15fba68885b8512
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-weather-plugin
+Description: weather information plugin for the Xfce4 panel
+ The weather plugin displays information about the current weather according
+ your timezone and settings. It allows one to search weather location code in
+ the same plugin and displays weather status in little icons.
+ .
+ Features include:
+  - Temperature, atmospheric pressure and state.
+  - Wind speed, gust, and direction.
+  - Humidity, Visibility, Dew-point, UV Index.
+Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+
+Package: xfce4-whiskermenu-plugin
+Version: 2.7.2-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 913
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.14.0), libexo-2-0 (>= 0.11.0), libgarcon-1-0 (>= 0.6.2), libgcc-s1 (>= 3.3.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libstdc++6 (>= 11), libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.15.6), libxfce4util7 (>= 4.15.3)
+Suggests: mugshot
+Filename: ./xfce4-whiskermenu-plugin_2.7.2-1~bpo22.04_amd64.deb
+Size: 219454
+MD5sum: 002b65cdc807d5f7ea76681e4994045e
+SHA1: af740e97ff42460ff3e4298ea14bdde9a197b16a
+SHA256: e43be6a156a4c6f5565099aa7d8f23ebc8e69a880a848b89d34c67780af67111
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-whiskermenu-plugin
+Description: Alternate menu plugin for the Xfce desktop environment
+ Whisker Menu is an alternate application launcher for Xfce. When you open it
+ you are shown a list of applications you have marked as favorites. You can
+ browse through all of your installed applications by clicking on the category
+ buttons on the side. Top level categories make browsing fast, and simple to
+ switch between. Additionally, Whisker Menu keeps a list of the last ten
+ applications that you've launched from it.
+
+Package: xfce4-windowck-plugin
+Version: 0.5.1-1~bpo22.04
+Architecture: amd64
+Maintainer: Akbarkhon Variskhanov <akbarkhon.variskhanov@gmail.com>
+Installed-Size: 556
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.22.0), libpango-1.0-0 (>= 1.14.0), libwnck-3-0 (>= 3.22.0), libxfce4panel-2.0-4 (>= 4.14.0), libxfce4ui-2-0 (>= 4.15.2), libxfce4util7 (>= 4.14.0), libxfconf-0-3 (>= 4.14.0)
+Filename: ./xfce4-windowck-plugin_0.5.1-1~bpo22.04_amd64.deb
+Size: 77576
+MD5sum: 3f4cdc7bbbcf6b1db787b34a251dc57b
+SHA1: 3c1eee2391c5e38d365bdb8ed797cc61a288e10c
+SHA256: dc31f7ff69f7e6bb8ae2b6d1259ecc57689bd39381514cc0c03e279a0b61639e
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-windowck-plugin/start
+Description: window buttons, title & menu on Xfce panel
+ This plugin allows adding buttons, title and menu for either active or
+ maximized windows to the panel, separately.
+ .
+ Original plugin's features:
+  * Three separate plugins that can individually be set to appear for either
+    active or maximized windows.
+  * Allow window actions on button and title clicks
+    (activate, (un)maximize, close).
+  * Allow window action menu on left button click.
+  * Title formatting options.
+  * Xfwm4/Unity theming support for buttons.
+
+Package: xfce4-xapp-status-plugin
+Version: 0.3.3+virginia
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 254
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.19.12), libjson-glib-1.0-0 (>= 1.5.2), libxapp1 (>= 1.8.8), libxfce4panel-2.0-4 (>= 4.13.0)
+Filename: ./xfce4-xapp-status-plugin_0.3.3+virginia_amd64.deb
+Size: 21860
+MD5sum: 6ab3e20debbb7a64ca2ce95c66197d46
+SHA1: acaca9207eade0c940ebc86346fe04123ed384fc
+SHA256: 72c5ade1249bb4d35387dbe81f85a90fd78e43c6d678fe11d4c8c97a75720040
+Section: x11
+Priority: optional
+Description: xapp status icon plugin for the Xfce4 panel
+
+Package: xfce4-xapp-status-plugin-dbg
+Source: xfce4-xapp-status-plugin
+Version: 0.3.3+virginia
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 74
+Depends: xfce4-xapp-status-plugin (= 0.3.3+virginia)
+Filename: ./xfce4-xapp-status-plugin-dbg_0.3.3+virginia_amd64.deb
+Size: 50388
+MD5sum: b33e904dfcd5949969bd68c143447210
+SHA1: d981a6b5cdb5b3bcde19f345cea50821ca8abe8a
+SHA256: cfe504a237a314fd8ad078b333d928360130983d6230df885788f590a37bf548
+Section: debug
+Priority: extra
+Multi-Arch: same
+Description: debug symbols for xfce4-xapp-status-plugin.
+Build-Ids: 897ed623208061dee88ef75eb2dcb8341d7c8458
+
+Package: xfce4-xkb-plugin
+Version: 1:0.8.3-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2129
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgarcon-1-0 (>= 0.1.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.14.4), libwnck-3-0 (>= 2.91.6), libx11-6, libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxklavier16 (>= 5.0)
+Filename: ./xfce4-xkb-plugin_1%3a0.8.3-1~bpo22.04_amd64.deb
+Size: 466642
+MD5sum: bba15e756283db3e29012c87db7fd6f3
+SHA1: e8fb64d8081f5c59ddd25bbe6a07674532def51b
+SHA256: a593e459c92ae281c0a9da1bff84c9dd10e5fe92f95ec8dbf9363f2c40fed5ec
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-xkb-plugin
+Description: xkb layout switch plugin for the Xfce4 panel
+ The xkb plugin shows you the current keyboard layout and allows you to
+ switch to different defined layouts.
+ .
+ The plugin itself cannot be used for defining the keyboard
+ layouts one wants to use, this is done the XKB way - either
+ in your X config or by setxkbmap tool.
+
+Package: xfconf
+Version: 4.18.0-2~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 784
+Depends: default-dbus-session-bus | dbus-session-bus, libc6 (>= 2.34), libglib2.0-0 (>= 2.55.2), libxfce4util7 (>= 4.17.3)
+Recommends: libxfconf-0-3 (>= 4.6.0)
+Filename: ./xfconf_4.18.0-2~bpo22.04_amd64.deb
+Size: 136494
+MD5sum: 1e0fd77c18d035b693b0be834be2e3dc
+SHA1: f950063225c1296350ac1913e8c1f8ed730cbd12
+SHA256: bea784d45fe54147d6b9103e91acf20471606f1d0909408227200902ac63133d
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfconf/start
+Description: utilities for managing settings in Xfce
+ xfconf contains xfconfd and xfconf-query.
+  - xfconfd handles the Xfce settings storage
+  - xfconf-query enables users to tune settings from command line
+
+Package: xfdesktop4
+Version: 4.18.1-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 703
+Depends: exo-utils, xfdesktop4-data (= 4.18.1-1~bpo22.04), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libexo-2-0 (>= 0.11.0), libgarcon-1-0 (>= 0.3.0), libgarcon-gtk3-1-0 (>= 0.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.1), libgtk-3-0 (>= 3.21.4), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libthunarx-3-0 (>= 4.17.10~), libwnck-3-0 (>= 3.4.7), libx11-6, libxfce4ui-2-0 (>= 4.15.6), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.12.1)
+Recommends: default-dbus-session-bus | dbus-session-bus, librsvg2-common, tumbler, xdg-user-dirs
+Filename: ./xfdesktop4_4.18.1-1~bpo22.04_amd64.deb
+Size: 193066
+MD5sum: 476bfc3a60dd2e858b80581b93da5667
+SHA1: b6d215a9fa2f75dd2ae7a4ac7970e8fab890536c
+SHA256: 565b7eca15e010f4cf5978cc3d74fcfc110e3842c831e6ed97a4454904b16ff9
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfdesktop/start
+Description: Xfce desktop background, icons and root menu manager
+ xfdesktop4 sets the background image, provides a right-click menu to
+ launch applications and can optionally show files (including application
+ launchers) or iconified windows. It includes gradient support for
+ background color, saturation support for background image, real multiscreen
+ and xinerama support.
+
+Package: xfdesktop4-data
+Source: xfdesktop4
+Version: 4.18.1-1~bpo22.04
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 3009
+Filename: ./xfdesktop4-data_4.18.1-1~bpo22.04_all.deb
+Size: 1308700
+MD5sum: d7de2691b83f1442f82bdcb94b186519
+SHA1: d19912fc2dfac13827374c5caad2adfb42c89823
+SHA256: 76c5dadb5c73a7e433055904cf4a3412d3df9e90f0d84900c86e4610c66cb12a
+Section: xfce
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/xfdesktop/start
+Description: Xfce desktop background, icons and root menu (common files)
+ xfdesktop4 sets the background image, provides a right-click menu to
+ launch applications and can optionally show files (including application
+ launchers) or iconified windows. It includes gradient support for
+ background color, saturation support for background image, real multiscreen
+ and xinerama support.
+ .
+ This package contains architecture-independent files for xfdesktop4.
+
+Package: xfwm4
+Version: 4.18.0-1~bpo22.04
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2944
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.5.2), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.7), libwnck-3-0 (>= 2.91.6), libx11-6 (>= 2:1.2.99.901), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6 (>= 2:1.3.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxfixes3 (>= 1:4.0.1), libxinerama1 (>= 2:1.1.4), libxpresent1, libxrandr2 (>= 2:1.2.99.3), libxrender1, libxres1 (>= 2:1.2.1)
+Recommends: librsvg2-common
+Suggests: xfce4
+Provides: x-window-manager
+Filename: ./xfwm4_4.18.0-1~bpo22.04_amd64.deb
+Size: 515910
+MD5sum: 25e05e770a583e924715e27fd3e0568d
+SHA1: 7aa37df0fc25e3f578a1cde13aa5a42887ba0c7e
+SHA256: bf3659d8472c5e439ccef5c030177f8a5969043dbc86a00ccfd3880ff278fe6f
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfwm4/start
+Description: window manager of the Xfce project
+ This package contains xfwm4 which is the window manager for Xfce4.  It is
+ designed to run with the rest of Xfce4 but makes a capable window manager
+ for GNOME or KDE.
+ .
+ Install xfwm4 if you want a small, resource saving window manager which
+ complies to the standards defined at http://www.freedesktop.org/. Without
+ xfce4 installed this only gives you a window manager not the full
+ environment.
+
+Package: xfwm4-theme-breeze
+Version: 0.1.0-4
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 98
+Depends: xfwm4 (>= 4.10.0)
+Breaks: xfwm4 (<< 4.10.0)
+Replaces: xfwm4 (<< 4.10.0)
+Filename: ./xfwm4-theme-breeze_0.1.0-4_all.deb
+Size: 14340
+MD5sum: b78f1b44a9adc4b48a598af43077f29a
+SHA1: f5701108687c07d381247a5aca2fc0540f8c3e07
+SHA256: 8a7b7ece9af89925fae71352c0d51d0f201f5f1e1d3b00d049cb6a30dc9d8e74
+Section: x11
+Priority: optional
+Homepage: https://github.com/psy-q/xfwm-theme-breeze
+Description: Breeze theme files for xfwm4
+ This package contains the Breeze theme files for xfwm4,
+ the window manager of the Xfce4 project.
+Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+
+Package: xubuntu-core
+Source: xubuntu-meta
+Version: 2.248
+Architecture: all
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Installed-Size: 9
+Depends: xubuntu-desktop-minimal
+Filename: ./xubuntu-core_2.248_all.deb
+Size: 1214
+MD5sum: 519a9e7c84791dc73b04670939e9afcf
+SHA1: 309bc9b8eaba1f98e8ee7b2d763509723e01bc95
+SHA256: b51a359f0da7a12de9b3d796834bbda3ba4f0d85d92cb89bc8665c2343048652
+Section: oldlibs
+Priority: optional
+Description: Xubuntu core system (transitional package)
+ This is a transitional package. It can safely be removed.
+
+Package: xubuntu-default-settings
+Version: 23.04.0
+Architecture: all
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Installed-Size: 362
+Depends: dbus-user-session, lightdm-gtk-greeter (>= 2.0.1-1), systemd (>= 231-1~), x11-common (>= 1:7.6+7ubuntu2), xfce4-session (>= 4.12.1-3ubuntu2~), xubuntu-artwork (>= 12.10.1~), dconf-gsettings-backend | gsettings-backend
+Recommends: libxfce4ui-utils, fonts-noto-core
+Breaks: upstart (<< 1.13.2-0ubuntu28~)
+Provides: lightdm-gtk-greeter-config
+Filename: ./xubuntu-default-settings_23.04.0_all.deb
+Size: 55044
+MD5sum: efeb195d3c7c28121a56fbbd7611461a
+SHA1: a530fdd71c5ad54d49e9f71ba7af5f9d22dd3353
+SHA256: 3350d97fe5685dcaa49ceaae60d8daacb728e6f3d83b2b916b12f9f7591b7089
+Section: x11
+Priority: optional
+Homepage: https://github.com/Xubuntu/xubuntu-default-settings
+Description: default settings for the Xubuntu desktop
+ This package contains the default settings used by Xubuntu.
+
+Package: xubuntu-desktop-minimal
+Source: xubuntu-meta
+Version: 2.248
+Architecture: amd64
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Installed-Size: 9
+Depends: alsa-base, alsa-utils, anacron, bc, ca-certificates, dmz-cursor-theme, doc-base, fonts-dejavu-core, fonts-freefont-ttf, foomatic-db-compressed-ppds, ghostscript-x, gtk2-engines-pixbuf, inputattach, language-selector-common, libasound2-plugins, libsasl2-modules, libu2f-udev, lightdm, lightdm-gtk-greeter, openprinting-ppds, printer-driver-pnm2ppa, rfkill, spice-vdagent, thunar, thunar-volman, ubuntu-drivers-common, unzip, wireless-tools, wpasupplicant, xdg-user-dirs, xdg-user-dirs-gtk, xdg-utils, xfce4-appfinder, xfce4-notifyd, xfce4-panel, xfce4-session, xfce4-settings, xfdesktop4, xfwm4, xkb-data, xorg, xterm, xubuntu-artwork, xubuntu-default-settings, zip
+Recommends: avahi-autoipd, avahi-daemon, bluez, bluez-cups, cups, cups-bsd, cups-client, cups-filters, dbus-x11, fonts-indic, fonts-kacst-one, fonts-khmeros-core, fonts-lao, fonts-liberation, fonts-lklug-sinhala, fonts-noto-cjk, fonts-noto-hinted, fonts-opensymbol, fonts-sil-abyssinica, fonts-sil-padauk, fonts-symbola, fonts-thai-tlwg, fonts-tibetan-machine, fonts-ubuntu, fwupd, fwupd-signed, gucharmap, hplip, kerneloops, laptop-detect, libfuse2, libnotify-bin, libnss-mdns, libpam-gnome-keyring, memtest86+, network-manager-gnome, numlockx, packagekit, pavucontrol, pcmciautils, pinentry-gtk2, pipewire, pipewire-pulse, policykit-desktop-privileges, printer-driver-brlaser, printer-driver-c2esp, printer-driver-foo2zjs, printer-driver-m2300w, printer-driver-min12xxw, printer-driver-ptouch, printer-driver-pxljr, printer-driver-sag-gdi, printer-driver-splix, snapd, software-properties-gtk, synaptic, wireplumber, xcape, xfce4-indicator-plugin, xfce4-power-manager, xfce4-pulseaudio-plugin, xfce4-screensaver, xfce4-screenshooter, xfce4-terminal, xfce4-whiskermenu-plugin, xserver-xorg-input-all, xserver-xorg-input-synaptics, xubuntu-docs
+Breaks: xubuntu-core (<< 2.246)
+Replaces: xubuntu-core (<< 2.246)
+Filename: ./xubuntu-desktop-minimal_2.248_amd64.deb
+Size: 3764
+MD5sum: 6540b48760866f585fa19cdc75e9fc13
+SHA1: 186cd3f384666d9e9aef88790456c782f3b319fb
+SHA256: f3b56dd433a5b8bc98d3d23fd684d0a7466426e8965ae508b4f210f6bcc59a4a
+Section: metapackages
+Priority: optional
+Description: Xubuntu minimal system
+ This package depends on the core set of a functional Xubuntu desktop system
+ .
+ It is safe to remove this package if some of the included packages are
+ not desired.
+
+Package: xubuntu-wallpapers
+Source: xubuntu-artwork
+Version: 23.04.1
+Architecture: all
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Installed-Size: 4215
+Suggests: xubuntu-community-wallpapers
+Filename: ./xubuntu-wallpapers_23.04.1_all.deb
+Size: 3885718
+MD5sum: b185c776c5cd606857d3f7a0bc1acbee
+SHA1: e9129419008c26640ca9d4f1e0ef4af91f72484d
+SHA256: 3e7d28e5ac75e400b5f23774b9844a831bffedc090a86fb89c354cab6c28a4aa
+Section: x11
+Priority: optional
+Description: Xubuntu desktop wallpapers
+ This package contains the default wallpapers for past and current
+ versions of Xubuntu.
+ .
+ For community wallpapers, please see the xubuntu-community-wallpapers
+ package.
+
