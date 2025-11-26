@@ -1,1 +1,1 @@
-A personal repository for my custom Linux distributions.
+The personal repository for my custom Linux distributions.
